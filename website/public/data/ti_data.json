@@ -1,0 +1,1235 @@
+{
+  "games": [
+    {
+      "game_id": "6470772d0cc21e00141af1a5",
+      "game_name": "Bier aus dem Schlauch trinken",
+      "start_date": "2023-05-26",
+      "end_date": "2023-07-13",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 5,
+      "players": [
+        {
+          "player_name": "Starki",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Steve",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "64a81dbdee77a100148764db",
+      "game_name": "Becher aus dem Eimer trinken",
+      "start_date": "2023-07-07",
+      "end_date": "2023-07-28",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 5,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 6,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 5,
+          "winner": false
+        },
+        {
+          "player_name": "Steve",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 4,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "64c613eaff62200014307719",
+      "game_name": "Wasser-Schlauch",
+      "start_date": "2023-07-30",
+      "end_date": "2023-08-13",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 6,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 3,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "64d90d6450dd3a00140001a4",
+      "game_name": "14 p Smackup PoK",
+      "start_date": "2023-09-13",
+      "end_date": "2023-10-12",
+      "rounds": 7,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 5,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "65299e47784ff00014f0c41e",
+      "game_name": "Wer hat hier die Hosen unten?",
+      "start_date": "2023-10-13",
+      "end_date": "2023-11-09",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 12,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "659e96e2ac9f8b0014b3bebe",
+      "game_name": "Friedliches verprügeln",
+      "start_date": "2024-01-10",
+      "end_date": "2024-02-09",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 13,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 10,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "65ca2a4db77b720015197bfc",
+      "game_name": "Wollen wir Freunde sein?",
+      "start_date": "2024-02-12",
+      "end_date": "2024-03-15",
+      "rounds": 7,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "65f53e0342cb1900153c80c5",
+      "game_name": "Flotter Dreier",
+      "start_date": "2024-03-16",
+      "end_date": "2024-04-02",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 12,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 10,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "660d18b4c063f10015c5cc1b",
+      "game_name": "Flotter Dreier 2",
+      "start_date": "2024-04-03",
+      "end_date": "2024-04-13",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 13,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 13,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "661ab137778a0700151551b1",
+      "game_name": "Flotter Vierer",
+      "start_date": "2024-04-13",
+      "end_date": "2024-05-07",
+      "rounds": 6,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 11,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 5,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "6681c55edcefb80015097c5e",
+      "game_name": "Exploration 4 the win",
+      "start_date": "2024-06-30",
+      "end_date": "2024-08-02",
+      "rounds": 6,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 11,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 11,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "66ba6de1bb6d9e0015cc8d78",
+      "game_name": "Shizzle",
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-24",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Frank",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "66cb1f970823e40015140021",
+      "game_name": "5er shizzle",
+      "start_date": "2024-08-25",
+      "end_date": "2024-09-23",
+      "rounds": 7,
+      "max_victory_points": 10,
+      "n_players": 5,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Steve",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "66f25b8501afda00150d7336",
+      "game_name": "Langweilig",
+      "start_date": "2024-09-24",
+      "end_date": "2024-10-09",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "671a3e89a022f1de55f3a8bf",
+      "game_name": "Manu trösten",
+      "start_date": "2024-10-24",
+      "end_date": "2024-11-17",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Frank",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 3,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67ac6dfb12236650d4f0cfdc",
+      "game_name": "Viehrer",
+      "start_date": "2025-02-12",
+      "end_date": "2025-03-19",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 13,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 12,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 11,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67da6966babd5a850a447f42",
+      "game_name": "Ficken",
+      "start_date": "2025-03-19",
+      "end_date": "2025-04-02",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67ee493d7c52833bd9a020fb",
+      "game_name": "Flotter Dreier",
+      "start_date": "2025-04-03",
+      "end_date": "2025-04-09",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67f6ca41c550f0ebca2e75d8",
+      "game_name": "Ficki ficki",
+      "start_date": "2025-04-09",
+      "end_date": "2025-04-17",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68026115a5dd682b58b16a39",
+      "game_name": "Brave and Stupid",
+      "start_date": "2025-04-18",
+      "end_date": "2025-05-06",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "681c7d10d5e12c112a6445d8",
+      "game_name": "L1 went awol",
+      "start_date": "2025-05-08",
+      "end_date": "2025-05-19",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "683c3f4c96bda541c8e1a373",
+      "game_name": "MW-Verlängerung",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-18",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 5,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "6846eff205247103cf2f6010",
+      "game_name": "Flotter Dreier",
+      "start_date": "2025-06-09",
+      "end_date": "2025-06-24",
+      "rounds": 7,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "685a87538030b9b281c0cc33",
+      "game_name": "0 Rage erlaubt, kein sftt swap",
+      "start_date": "2025-06-24",
+      "end_date": "2025-07-18",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "687a6a4081785bc35b20802f",
+      "game_name": "Zutiefst Zuwieder wieder",
+      "start_date": "2025-07-18",
+      "end_date": "2025-07-23",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68809ebcbfbc93cec5b50d0d",
+      "game_name": "Zutiefst Zuwieder wieder",
+      "start_date": "2025-07-23",
+      "end_date": "2025-07-30",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "688a7dd06ca999f50a131e99",
+      "game_name": "Wieder zuwider",
+      "start_date": "2025-07-30",
+      "end_date": "2025-08-04",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 4,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "6890d53480917d9ada584d8e",
+      "game_name": "Warten auf mehr PoK Content",
+      "start_date": "2025-08-04",
+      "end_date": "2025-08-13",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "689c4340918b578ec61e122e",
+      "game_name": "Urlaubstimmy",
+      "start_date": "2025-08-13",
+      "end_date": "2025-08-23",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68aa0a800810ff3ac2687f4e",
+      "game_name": "Wer hat Manus Mom zuletzt gesehen?",
+      "start_date": "2025-08-23",
+      "end_date": "2025-08-28",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68b13bbc8cf23884545eca76",
+      "game_name": "Mehr aggro sein dieses Mal",
+      "start_date": "2025-08-29",
+      "end_date": "2025-09-15",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68c807adb5c98b30851ab64c",
+      "game_name": "Rise and Shine",
+      "start_date": "2025-09-15",
+      "end_date": "2025-10-29",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    }
+  ],
+  "players": [
+    "Eric",
+    "Frank",
+    "Manu",
+    "Starki",
+    "Steve",
+    "Thomas"
+  ],
+  "factions": [
+    {
+      "short": "Arborec",
+      "full": "The Arborec",
+      "icon": "/icons/faction_icons/Arborec.png"
+    },
+    {
+      "short": "Barony",
+      "full": "The Barony of Letnev",
+      "icon": "/icons/faction_icons/Barony.png"
+    },
+    {
+      "short": "Creuss",
+      "full": "The Ghosts of Creuss",
+      "icon": "/icons/faction_icons/Creuss.png"
+    },
+    {
+      "short": "Empyrean",
+      "full": "The Empyrean",
+      "icon": "/icons/faction_icons/Empyrean.png"
+    },
+    {
+      "short": "Hacan",
+      "full": "The Emirates of Hacan",
+      "icon": "/icons/faction_icons/Hacan.png"
+    },
+    {
+      "short": "Jol",
+      "full": "The Universities of Jol-Nar",
+      "icon": "/icons/faction_icons/Jol Nar.png"
+    },
+    {
+      "short": "L1Z1X",
+      "full": "The L1Z1X Mindset",
+      "icon": "/icons/faction_icons/L1Z1X.png"
+    },
+    {
+      "short": "Mentak",
+      "full": "The Mentak Coalition",
+      "icon": "/icons/faction_icons/Mentak.png"
+    },
+    {
+      "short": "Muaat",
+      "full": "The Embers of Muaat",
+      "icon": "/icons/faction_icons/Muaat.png"
+    },
+    {
+      "short": "Naalu",
+      "full": "The Naalu Collective",
+      "icon": "/icons/faction_icons/Naalu.png"
+    },
+    {
+      "short": "Nekro",
+      "full": "The Nekro Virus",
+      "icon": "/icons/faction_icons/Nekro.png"
+    },
+    {
+      "short": "Saar",
+      "full": "The Clan of Saar",
+      "icon": "/icons/faction_icons/Saar.png"
+    },
+    {
+      "short": "Sardakk",
+      "full": "Sardakk N'orr",
+      "icon": "/icons/faction_icons/Sardakk.png"
+    },
+    {
+      "short": "Sol",
+      "full": "The Federation of Sol",
+      "icon": "/icons/faction_icons/Sol.png"
+    },
+    {
+      "short": "Winnu",
+      "full": "The Winnu",
+      "icon": "/icons/faction_icons/Winnu.png"
+    },
+    {
+      "short": "Xxcha",
+      "full": "The Xxcha Kingdom",
+      "icon": "/icons/faction_icons/Xxcha.png"
+    },
+    {
+      "short": "Yssaril",
+      "full": "The Yssaril Tribes",
+      "icon": "/icons/faction_icons/Yssaril.png"
+    }
+  ]
+}
