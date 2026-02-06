@@ -157,6 +157,7 @@ const TwilightImperiumDashboard = () => {
               games={filteredGames}
               factions={data.factions}
               minGames={2}
+              selectedPlayers={filters.players}
             />
           </div>
 
