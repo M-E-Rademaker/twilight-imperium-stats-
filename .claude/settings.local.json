@@ -7,7 +7,17 @@
       "Bash(python:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git remote set-url:*)",
+      "WebFetch(domain:ti-stats-dashboard.netlify.app)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)",
+      "Bash(powershell -Command:*)"
     ],
     "deny": [],
     "ask": []

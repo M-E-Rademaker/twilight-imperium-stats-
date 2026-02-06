@@ -12,6 +12,8 @@ import FilterPanel from './components/FilterPanel';
 import StatsOverview from './components/StatsOverview';
 import WinRateChart from './components/WinRateChart';
 import ParticipationTimeline from './components/ParticipationTimeline';
+import RoundDistributionChart from './components/RoundDistributionChart';
+import FactionWinRateChart from './components/FactionWinRateChart';
 import GamesList from './components/GamesList';
 import GameDetails from './components/GameDetails';
 
@@ -128,7 +130,7 @@ const TwilightImperiumDashboard = () => {
             mostPlayedFaction={mostPlayedFaction}
           />
 
-          {/* Charts Row */}
+          {/* Charts Row 1: Player Analytics */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Participation Timeline */}
             <ParticipationTimeline
@@ -140,6 +142,21 @@ const TwilightImperiumDashboard = () => {
             <WinRateChart
               timelineData={timelineData}
               players={data.players}
+            />
+          </div>
+
+          {/* Charts Row 2: Game & Faction Analytics */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Round Distribution Chart */}
+            <RoundDistributionChart
+              games={filteredGames}
+            />
+
+            {/* Faction Win Rate Chart */}
+            <FactionWinRateChart
+              games={filteredGames}
+              factions={data.factions}
+              minGames={2}
             />
           </div>
 
