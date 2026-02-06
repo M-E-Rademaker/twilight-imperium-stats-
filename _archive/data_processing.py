@@ -2,9 +2,9 @@
 import pandas as pd
 import numpy as np
 
-df_results  = pd.read_excel("raw_data.xlsx", sheet_name="results")
-df_games    = pd.read_excel("raw_data.xlsx", sheet_name="games")
-df_factions = pd.read_excel("raw_data.xlsx", sheet_name="factions")
+df_results  = pd.read_excel("../data/raw_data.xlsx", sheet_name="results")
+df_games    = pd.read_excel("../data/raw_data.xlsx", sheet_name="games")
+df_factions = pd.read_excel("../data/raw_data.xlsx", sheet_name="factions")
 # %% Combine
 df = pd.DataFrame({
     "game_id"     : np.repeat(df_games.game_id.unique(), len(df_results.player_name.unique())),
@@ -53,7 +53,7 @@ cols = [
 df = df[cols]
 
 # %%
-df.to_json('twilight_imperium_data.json', orient='records', date_format='iso')
+df.to_json('../website/public/data/ti_data.json', orient='records', date_format='iso')
 
 # %%
 df = df.sort_values(["player_name", "start_date"])
