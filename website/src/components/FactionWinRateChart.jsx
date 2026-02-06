@@ -1,7 +1,9 @@
 import React, { useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
-const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
+const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = [] }) => {
+  const hasPlayerFilter = selectedPlayers.length > 0;
+
   const factionStats = useMemo(() => {
     if (!games || games.length === 0) return [];
 
@@ -10,6 +12,11 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
 
     games.forEach(game => {
       game.players.forEach(player => {
+        // When player filter is active, only count stats for the selected players
+        if (hasPlayerFilter && !selectedPlayers.includes(player.player_name)) {
+          return;
+        }
+
         if (player.faction_short && player.victory_points !== null) {
           if (!stats[player.faction_short]) {
             stats[player.faction_short] = {
@@ -37,7 +44,7 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
       .sort((a, b) => b.winRate - a.winRate);
 
     return factionArray;
-  }, [games, minGames]);
+  }, [games, minGames, hasPlayerFilter, selectedPlayers]);
 
   // Custom tooltip
   const CustomTooltip = ({ active, payload }) => {
@@ -90,9 +97,19 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
   return (
     <div className="bg-gray-800/50 backdrop-blur border-2 border-purple-500/50 rounded-lg p-6">
       <div className="mb-4">
-        <h2 className="text-xl font-bold text-white mb-1">Faction Win Rates</h2>
+        <h2 className="text-xl font-bold text-white mb-1">
+          Faction Win Rates
+          {hasPlayerFilter && (
+            <span className="ml-2 text-sm font-medium text-purple-300 bg-purple-500/20 px-2 py-0.5 rounded-full">
+              {selectedPlayers.join(', ')}
+            </span>
+          )}
+        </h2>
         <p className="text-gray-400 text-sm">
-          Performance by faction (minimum {minGames} games)
+          {hasPlayerFilter
+            ? `Personal win rates for ${selectedPlayers.join(', ')} (minimum ${minGames} games)`
+            : `Performance by faction (minimum ${minGames} games)`
+          }
         </p>
       </div>
 
