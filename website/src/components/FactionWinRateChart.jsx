@@ -117,7 +117,7 @@ const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = 
         <BarChart
           data={factionStats}
           layout="vertical"
-          margin={{ top: 5, right: 30, left: 120, bottom: 5 }}
+          margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
           <XAxis
@@ -132,7 +132,7 @@ const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = 
             dataKey="faction_short"
             stroke="#9ca3af"
             tick={{ fill: '#9ca3af', fontSize: 12 }}
-            width={110}
+            width={70}
           />
           <Tooltip content={<CustomTooltip />} cursor={{ fill: 'rgba(139, 92, 246, 0.1)' }} />
           <Bar
