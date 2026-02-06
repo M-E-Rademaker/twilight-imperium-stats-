@@ -1,1 +1,1370 @@
-[{"game_id":"6470772d0cc21e00141af1a5","game_name":"Bier aus dem Schlauch trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-05-26T00:00:00.000","end_date":"2023-07-13T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":"Naalu","faction_full_name":"The Naalu Collective","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"6470772d0cc21e00141af1a5","game_name":"Bier aus dem Schlauch trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-05-26T00:00:00.000","end_date":"2023-07-13T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":"Xxcha","faction_full_name":"The Xxcha Kingdom","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6470772d0cc21e00141af1a5","game_name":"Bier aus dem Schlauch trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-05-26T00:00:00.000","end_date":"2023-07-13T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6470772d0cc21e00141af1a5","game_name":"Bier aus dem Schlauch trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-05-26T00:00:00.000","end_date":"2023-07-13T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":"Creuss","faction_full_name":"The Ghosts of Creuss","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6470772d0cc21e00141af1a5","game_name":"Bier aus dem Schlauch trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-05-26T00:00:00.000","end_date":"2023-07-13T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"Jol","faction_full_name":"The Universities of Jol-Nar","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6470772d0cc21e00141af1a5","game_name":"Bier aus dem Schlauch trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-05-26T00:00:00.000","end_date":"2023-07-13T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":0,"cumulated_n_winner":0,"cumulated_overall_win_rate":null},{"game_id":"64a81dbdee77a100148764db","game_name":"Becher aus dem Eimer trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-07T00:00:00.000","end_date":"2023-07-28T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"64a81dbdee77a100148764db","game_name":"Becher aus dem Eimer trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-07T00:00:00.000","end_date":"2023-07-28T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"Yssaril","faction_full_name":"The Yssaril Tribes","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64a81dbdee77a100148764db","game_name":"Becher aus dem Eimer trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-07T00:00:00.000","end_date":"2023-07-28T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Mentak","faction_full_name":"The Mentak Coalition","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64a81dbdee77a100148764db","game_name":"Becher aus dem Eimer trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-07T00:00:00.000","end_date":"2023-07-28T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":"Muaat","faction_full_name":"The Embers of Muaat","victory_points":4.0,"participated":true,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64a81dbdee77a100148764db","game_name":"Becher aus dem Eimer trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-07T00:00:00.000","end_date":"2023-07-28T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Jol","faction_full_name":"The Universities of Jol-Nar","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":2,"cumulated_n_winner":1,"cumulated_overall_win_rate":0.5},{"game_id":"64a81dbdee77a100148764db","game_name":"Becher aus dem Eimer trinken","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-07T00:00:00.000","end_date":"2023-07-28T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":5.0,"participated":true,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64c613eaff62200014307719","game_name":"Wasser-Schlauch","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-30T00:00:00.000","end_date":"2023-08-13T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"64c613eaff62200014307719","game_name":"Wasser-Schlauch","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-30T00:00:00.000","end_date":"2023-08-13T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":3.0,"participated":true,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64c613eaff62200014307719","game_name":"Wasser-Schlauch","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-30T00:00:00.000","end_date":"2023-08-13T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64c613eaff62200014307719","game_name":"Wasser-Schlauch","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-30T00:00:00.000","end_date":"2023-08-13T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64c613eaff62200014307719","game_name":"Wasser-Schlauch","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-30T00:00:00.000","end_date":"2023-08-13T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Muaat","faction_full_name":"The Embers of Muaat","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":3,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.6666666667},{"game_id":"64c613eaff62200014307719","game_name":"Wasser-Schlauch","game_max_victory_points":10,"game_n_players":6,"start_date":"2023-07-30T00:00:00.000","end_date":"2023-08-13T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64d90d6450dd3a00140001a4","game_name":"14 p Smackup PoK","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-09-13T00:00:00.000","end_date":"2023-10-12T00:00:00.000","rounds":7,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"64d90d6450dd3a00140001a4","game_name":"14 p Smackup PoK","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-09-13T00:00:00.000","end_date":"2023-10-12T00:00:00.000","rounds":7,"player_name":"Frank","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":4,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64d90d6450dd3a00140001a4","game_name":"14 p Smackup PoK","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-09-13T00:00:00.000","end_date":"2023-10-12T00:00:00.000","rounds":7,"player_name":"Eric","faction_short_name":"Sol","faction_full_name":"The Federation of Sol","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":3,"cumulated_n_winner":1,"cumulated_overall_win_rate":0.3333333333},{"game_id":"64d90d6450dd3a00140001a4","game_name":"14 p Smackup PoK","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-09-13T00:00:00.000","end_date":"2023-10-12T00:00:00.000","rounds":7,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"64d90d6450dd3a00140001a4","game_name":"14 p Smackup PoK","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-09-13T00:00:00.000","end_date":"2023-10-12T00:00:00.000","rounds":7,"player_name":"Manu","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":5.0,"participated":true,"winner":false,"cumulated_n_participated":4,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.5},{"game_id":"64d90d6450dd3a00140001a4","game_name":"14 p Smackup PoK","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-09-13T00:00:00.000","end_date":"2023-10-12T00:00:00.000","rounds":7,"player_name":"Thomas","faction_short_name":"Winnu","faction_full_name":"The Winnu","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65299e47784ff00014f0c41e","game_name":"Wer hat hier die Hosen unten?","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-10-13T00:00:00.000","end_date":"2023-11-09T00:00:00.000","rounds":8,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"65299e47784ff00014f0c41e","game_name":"Wer hat hier die Hosen unten?","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-10-13T00:00:00.000","end_date":"2023-11-09T00:00:00.000","rounds":8,"player_name":"Frank","faction_short_name":"Yssaril","faction_full_name":"The Yssaril Tribes","victory_points":12.0,"participated":true,"winner":false,"cumulated_n_participated":5,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65299e47784ff00014f0c41e","game_name":"Wer hat hier die Hosen unten?","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-10-13T00:00:00.000","end_date":"2023-11-09T00:00:00.000","rounds":8,"player_name":"Eric","faction_short_name":"Mentak","faction_full_name":"The Mentak Coalition","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":4,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.5},{"game_id":"65299e47784ff00014f0c41e","game_name":"Wer hat hier die Hosen unten?","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-10-13T00:00:00.000","end_date":"2023-11-09T00:00:00.000","rounds":8,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65299e47784ff00014f0c41e","game_name":"Wer hat hier die Hosen unten?","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-10-13T00:00:00.000","end_date":"2023-11-09T00:00:00.000","rounds":8,"player_name":"Manu","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":5,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.4},{"game_id":"65299e47784ff00014f0c41e","game_name":"Wer hat hier die Hosen unten?","game_max_victory_points":14,"game_n_players":6,"start_date":"2023-10-13T00:00:00.000","end_date":"2023-11-09T00:00:00.000","rounds":8,"player_name":"Thomas","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"659e96e2ac9f8b0014b3bebe","game_name":"Friedliches verpr\u00fcgeln","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-01-10T00:00:00.000","end_date":"2024-02-09T00:00:00.000","rounds":8,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"659e96e2ac9f8b0014b3bebe","game_name":"Friedliches verpr\u00fcgeln","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-01-10T00:00:00.000","end_date":"2024-02-09T00:00:00.000","rounds":8,"player_name":"Frank","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":10.0,"participated":true,"winner":false,"cumulated_n_participated":6,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"659e96e2ac9f8b0014b3bebe","game_name":"Friedliches verpr\u00fcgeln","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-01-10T00:00:00.000","end_date":"2024-02-09T00:00:00.000","rounds":8,"player_name":"Eric","faction_short_name":"Xxcha","faction_full_name":"The Xxcha Kingdom","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":5,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.6},{"game_id":"659e96e2ac9f8b0014b3bebe","game_name":"Friedliches verpr\u00fcgeln","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-01-10T00:00:00.000","end_date":"2024-02-09T00:00:00.000","rounds":8,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"659e96e2ac9f8b0014b3bebe","game_name":"Friedliches verpr\u00fcgeln","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-01-10T00:00:00.000","end_date":"2024-02-09T00:00:00.000","rounds":8,"player_name":"Manu","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":6,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.3333333333},{"game_id":"659e96e2ac9f8b0014b3bebe","game_name":"Friedliches verpr\u00fcgeln","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-01-10T00:00:00.000","end_date":"2024-02-09T00:00:00.000","rounds":8,"player_name":"Thomas","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":13.0,"participated":true,"winner":false,"cumulated_n_participated":4,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65ca2a4db77b720015197bfc","game_name":"Wollen wir Freunde sein?","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-02-12T00:00:00.000","end_date":"2024-03-15T00:00:00.000","rounds":7,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"65ca2a4db77b720015197bfc","game_name":"Wollen wir Freunde sein?","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-02-12T00:00:00.000","end_date":"2024-03-15T00:00:00.000","rounds":7,"player_name":"Frank","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":7,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65ca2a4db77b720015197bfc","game_name":"Wollen wir Freunde sein?","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-02-12T00:00:00.000","end_date":"2024-03-15T00:00:00.000","rounds":7,"player_name":"Eric","faction_short_name":"Naalu","faction_full_name":"The Naalu Collective","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":6,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.5},{"game_id":"65ca2a4db77b720015197bfc","game_name":"Wollen wir Freunde sein?","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-02-12T00:00:00.000","end_date":"2024-03-15T00:00:00.000","rounds":7,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65ca2a4db77b720015197bfc","game_name":"Wollen wir Freunde sein?","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-02-12T00:00:00.000","end_date":"2024-03-15T00:00:00.000","rounds":7,"player_name":"Manu","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":7,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.2857142857},{"game_id":"65ca2a4db77b720015197bfc","game_name":"Wollen wir Freunde sein?","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-02-12T00:00:00.000","end_date":"2024-03-15T00:00:00.000","rounds":7,"player_name":"Thomas","faction_short_name":"Sol","faction_full_name":"The Federation of Sol","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":5,"cumulated_n_winner":1,"cumulated_overall_win_rate":0.2},{"game_id":"65f53e0342cb1900153c80c5","game_name":"Flotter Dreier","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-03-16T00:00:00.000","end_date":"2024-04-02T00:00:00.000","rounds":8,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"65f53e0342cb1900153c80c5","game_name":"Flotter Dreier","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-03-16T00:00:00.000","end_date":"2024-04-02T00:00:00.000","rounds":8,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":7,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65f53e0342cb1900153c80c5","game_name":"Flotter Dreier","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-03-16T00:00:00.000","end_date":"2024-04-02T00:00:00.000","rounds":8,"player_name":"Eric","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":10.0,"participated":true,"winner":false,"cumulated_n_participated":7,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.4285714286},{"game_id":"65f53e0342cb1900153c80c5","game_name":"Flotter Dreier","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-03-16T00:00:00.000","end_date":"2024-04-02T00:00:00.000","rounds":8,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"65f53e0342cb1900153c80c5","game_name":"Flotter Dreier","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-03-16T00:00:00.000","end_date":"2024-04-02T00:00:00.000","rounds":8,"player_name":"Manu","faction_short_name":"Yin","faction_full_name":null,"victory_points":12.0,"participated":true,"winner":false,"cumulated_n_participated":8,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.25},{"game_id":"65f53e0342cb1900153c80c5","game_name":"Flotter Dreier","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-03-16T00:00:00.000","end_date":"2024-04-02T00:00:00.000","rounds":8,"player_name":"Thomas","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":6,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.3333333333},{"game_id":"660d18b4c063f10015c5cc1b","game_name":"Flotter Dreier 2","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-03T00:00:00.000","end_date":"2024-04-13T00:00:00.000","rounds":8,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"660d18b4c063f10015c5cc1b","game_name":"Flotter Dreier 2","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-03T00:00:00.000","end_date":"2024-04-13T00:00:00.000","rounds":8,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":7,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"660d18b4c063f10015c5cc1b","game_name":"Flotter Dreier 2","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-03T00:00:00.000","end_date":"2024-04-13T00:00:00.000","rounds":8,"player_name":"Eric","faction_short_name":"Winnu","faction_full_name":"The Winnu","victory_points":13.0,"participated":true,"winner":false,"cumulated_n_participated":8,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.375},{"game_id":"660d18b4c063f10015c5cc1b","game_name":"Flotter Dreier 2","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-03T00:00:00.000","end_date":"2024-04-13T00:00:00.000","rounds":8,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"660d18b4c063f10015c5cc1b","game_name":"Flotter Dreier 2","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-03T00:00:00.000","end_date":"2024-04-13T00:00:00.000","rounds":8,"player_name":"Manu","faction_short_name":"Hacan","faction_full_name":"The Emirates of Hacan","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":9,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.3333333333},{"game_id":"660d18b4c063f10015c5cc1b","game_name":"Flotter Dreier 2","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-03T00:00:00.000","end_date":"2024-04-13T00:00:00.000","rounds":8,"player_name":"Thomas","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":13.0,"participated":true,"winner":false,"cumulated_n_participated":7,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.2857142857},{"game_id":"661ab137778a0700151551b1","game_name":"Flotter Vierer","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-13T00:00:00.000","end_date":"2024-05-07T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"661ab137778a0700151551b1","game_name":"Flotter Vierer","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-13T00:00:00.000","end_date":"2024-05-07T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":5.0,"participated":true,"winner":false,"cumulated_n_participated":8,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"661ab137778a0700151551b1","game_name":"Flotter Vierer","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-13T00:00:00.000","end_date":"2024-05-07T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Winnu","faction_full_name":"The Winnu","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":9,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.4444444444},{"game_id":"661ab137778a0700151551b1","game_name":"Flotter Vierer","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-13T00:00:00.000","end_date":"2024-05-07T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"661ab137778a0700151551b1","game_name":"Flotter Vierer","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-13T00:00:00.000","end_date":"2024-05-07T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"Mentak","faction_full_name":"The Mentak Coalition","victory_points":11.0,"participated":true,"winner":false,"cumulated_n_participated":10,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.3},{"game_id":"661ab137778a0700151551b1","game_name":"Flotter Vierer","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-04-13T00:00:00.000","end_date":"2024-05-07T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Yssaril","faction_full_name":"The Yssaril Tribes","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":8,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.25},{"game_id":"6681c55edcefb80015097c5e","game_name":"Exploration 4 the win","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-06-30T00:00:00.000","end_date":"2024-08-02T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"6681c55edcefb80015097c5e","game_name":"Exploration 4 the win","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-06-30T00:00:00.000","end_date":"2024-08-02T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":"Hacan","faction_full_name":"The Emirates of Hacan","victory_points":11.0,"participated":true,"winner":false,"cumulated_n_participated":9,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6681c55edcefb80015097c5e","game_name":"Exploration 4 the win","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-06-30T00:00:00.000","end_date":"2024-08-02T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Yssaril","faction_full_name":"The Yssaril Tribes","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":10,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.5},{"game_id":"6681c55edcefb80015097c5e","game_name":"Exploration 4 the win","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-06-30T00:00:00.000","end_date":"2024-08-02T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6681c55edcefb80015097c5e","game_name":"Exploration 4 the win","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-06-30T00:00:00.000","end_date":"2024-08-02T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":11,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.2727272727},{"game_id":"6681c55edcefb80015097c5e","game_name":"Exploration 4 the win","game_max_victory_points":14,"game_n_players":6,"start_date":"2024-06-30T00:00:00.000","end_date":"2024-08-02T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":11.0,"participated":true,"winner":false,"cumulated_n_participated":9,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.2222222222},{"game_id":"66ba6de1bb6d9e0015cc8d78","game_name":"Shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-12T00:00:00.000","end_date":"2024-08-24T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"66ba6de1bb6d9e0015cc8d78","game_name":"Shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-12T00:00:00.000","end_date":"2024-08-24T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"Mentak","faction_full_name":"The Mentak Coalition","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":10,"cumulated_n_winner":1,"cumulated_overall_win_rate":0.1},{"game_id":"66ba6de1bb6d9e0015cc8d78","game_name":"Shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-12T00:00:00.000","end_date":"2024-08-24T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Sol","faction_full_name":"The Federation of Sol","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":11,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.4545454545},{"game_id":"66ba6de1bb6d9e0015cc8d78","game_name":"Shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-12T00:00:00.000","end_date":"2024-08-24T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":2,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"66ba6de1bb6d9e0015cc8d78","game_name":"Shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-12T00:00:00.000","end_date":"2024-08-24T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Creuss","faction_full_name":"The Ghosts of Creuss","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":12,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.25},{"game_id":"66ba6de1bb6d9e0015cc8d78","game_name":"Shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-12T00:00:00.000","end_date":"2024-08-24T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":9,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.2222222222},{"game_id":"66cb1f970823e40015140021","game_name":"5er shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-25T00:00:00.000","end_date":"2024-09-23T00:00:00.000","rounds":7,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"66cb1f970823e40015140021","game_name":"5er shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-25T00:00:00.000","end_date":"2024-09-23T00:00:00.000","rounds":7,"player_name":"Frank","faction_short_name":"Arborec","faction_full_name":"The Arborec","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":11,"cumulated_n_winner":1,"cumulated_overall_win_rate":0.0909090909},{"game_id":"66cb1f970823e40015140021","game_name":"5er shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-25T00:00:00.000","end_date":"2024-09-23T00:00:00.000","rounds":7,"player_name":"Eric","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":12,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.4166666667},{"game_id":"66cb1f970823e40015140021","game_name":"5er shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-25T00:00:00.000","end_date":"2024-09-23T00:00:00.000","rounds":7,"player_name":"Steve","faction_short_name":"Creuss","faction_full_name":"The Ghosts of Creuss","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"66cb1f970823e40015140021","game_name":"5er shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-25T00:00:00.000","end_date":"2024-09-23T00:00:00.000","rounds":7,"player_name":"Manu","faction_short_name":"Sol","faction_full_name":"The Federation of Sol","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":13,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.3076923077},{"game_id":"66cb1f970823e40015140021","game_name":"5er shizzle","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-08-25T00:00:00.000","end_date":"2024-09-23T00:00:00.000","rounds":7,"player_name":"Thomas","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":10,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.2},{"game_id":"66f25b8501afda00150d7336","game_name":"Langweilig","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-09-24T00:00:00.000","end_date":"2024-10-09T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"66f25b8501afda00150d7336","game_name":"Langweilig","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-09-24T00:00:00.000","end_date":"2024-10-09T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"Jol","faction_full_name":"The Universities of Jol-Nar","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":12,"cumulated_n_winner":1,"cumulated_overall_win_rate":0.0833333333},{"game_id":"66f25b8501afda00150d7336","game_name":"Langweilig","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-09-24T00:00:00.000","end_date":"2024-10-09T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":13,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.4615384615},{"game_id":"66f25b8501afda00150d7336","game_name":"Langweilig","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-09-24T00:00:00.000","end_date":"2024-10-09T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"66f25b8501afda00150d7336","game_name":"Langweilig","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-09-24T00:00:00.000","end_date":"2024-10-09T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Naalu","faction_full_name":"The Naalu Collective","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":14,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.2857142857},{"game_id":"66f25b8501afda00150d7336","game_name":"Langweilig","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-09-24T00:00:00.000","end_date":"2024-10-09T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":10,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.2},{"game_id":"671a3e89a022f1de55f3a8bf","game_name":"Manu tr\u00f6sten","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-10-24T00:00:00.000","end_date":"2024-11-17T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"671a3e89a022f1de55f3a8bf","game_name":"Manu tr\u00f6sten","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-10-24T00:00:00.000","end_date":"2024-11-17T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"Jol","faction_full_name":"The Universities of Jol-Nar","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":13,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1538461538},{"game_id":"671a3e89a022f1de55f3a8bf","game_name":"Manu tr\u00f6sten","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-10-24T00:00:00.000","end_date":"2024-11-17T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":14,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.4285714286},{"game_id":"671a3e89a022f1de55f3a8bf","game_name":"Manu tr\u00f6sten","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-10-24T00:00:00.000","end_date":"2024-11-17T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"671a3e89a022f1de55f3a8bf","game_name":"Manu tr\u00f6sten","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-10-24T00:00:00.000","end_date":"2024-11-17T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":3.0,"participated":true,"winner":false,"cumulated_n_participated":15,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.2666666667},{"game_id":"671a3e89a022f1de55f3a8bf","game_name":"Manu tr\u00f6sten","game_max_victory_points":10,"game_n_players":6,"start_date":"2024-10-24T00:00:00.000","end_date":"2024-11-17T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":10,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.2},{"game_id":"67ac6dfb12236650d4f0cfdc","game_name":"Viehrer","game_max_victory_points":14,"game_n_players":6,"start_date":"2025-02-12T00:00:00.000","end_date":"2025-03-19T00:00:00.000","rounds":8,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"67ac6dfb12236650d4f0cfdc","game_name":"Viehrer","game_max_victory_points":14,"game_n_players":6,"start_date":"2025-02-12T00:00:00.000","end_date":"2025-03-19T00:00:00.000","rounds":8,"player_name":"Frank","faction_short_name":"Jol","faction_full_name":"The Universities of Jol-Nar","victory_points":13.0,"participated":true,"winner":false,"cumulated_n_participated":14,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1428571429},{"game_id":"67ac6dfb12236650d4f0cfdc","game_name":"Viehrer","game_max_victory_points":14,"game_n_players":6,"start_date":"2025-02-12T00:00:00.000","end_date":"2025-03-19T00:00:00.000","rounds":8,"player_name":"Eric","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":12.0,"participated":true,"winner":false,"cumulated_n_participated":15,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.4},{"game_id":"67ac6dfb12236650d4f0cfdc","game_name":"Viehrer","game_max_victory_points":14,"game_n_players":6,"start_date":"2025-02-12T00:00:00.000","end_date":"2025-03-19T00:00:00.000","rounds":8,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"67ac6dfb12236650d4f0cfdc","game_name":"Viehrer","game_max_victory_points":14,"game_n_players":6,"start_date":"2025-02-12T00:00:00.000","end_date":"2025-03-19T00:00:00.000","rounds":8,"player_name":"Manu","faction_short_name":"Hacan","faction_full_name":"The Emirates of Hacan","victory_points":11.0,"participated":true,"winner":false,"cumulated_n_participated":16,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.25},{"game_id":"67ac6dfb12236650d4f0cfdc","game_name":"Viehrer","game_max_victory_points":14,"game_n_players":6,"start_date":"2025-02-12T00:00:00.000","end_date":"2025-03-19T00:00:00.000","rounds":8,"player_name":"Thomas","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":14.0,"participated":true,"winner":true,"cumulated_n_participated":11,"cumulated_n_winner":3,"cumulated_overall_win_rate":0.2727272727},{"game_id":"67da6966babd5a850a447f42","game_name":"Ficken","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-03-19T00:00:00.000","end_date":"2025-04-02T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"67da6966babd5a850a447f42","game_name":"Ficken","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-03-19T00:00:00.000","end_date":"2025-04-02T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"Winnu","faction_full_name":"The Winnu","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":15,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1333333333},{"game_id":"67da6966babd5a850a447f42","game_name":"Ficken","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-03-19T00:00:00.000","end_date":"2025-04-02T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":16,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.375},{"game_id":"67da6966babd5a850a447f42","game_name":"Ficken","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-03-19T00:00:00.000","end_date":"2025-04-02T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"67da6966babd5a850a447f42","game_name":"Ficken","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-03-19T00:00:00.000","end_date":"2025-04-02T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Xxcha","faction_full_name":"The Xxcha Kingdom","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":17,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.2352941176},{"game_id":"67da6966babd5a850a447f42","game_name":"Ficken","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-03-19T00:00:00.000","end_date":"2025-04-02T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Creuss","faction_full_name":"The Ghosts of Creuss","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":12,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.3333333333},{"game_id":"67ee493d7c52833bd9a020fb","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-03T00:00:00.000","end_date":"2025-04-09T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"67ee493d7c52833bd9a020fb","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-03T00:00:00.000","end_date":"2025-04-09T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":15,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1333333333},{"game_id":"67ee493d7c52833bd9a020fb","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-03T00:00:00.000","end_date":"2025-04-09T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Yin","faction_full_name":null,"victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":17,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.3529411765},{"game_id":"67ee493d7c52833bd9a020fb","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-03T00:00:00.000","end_date":"2025-04-09T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"67ee493d7c52833bd9a020fb","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-03T00:00:00.000","end_date":"2025-04-09T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"Yssaril","faction_full_name":"The Yssaril Tribes","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":18,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.2777777778},{"game_id":"67ee493d7c52833bd9a020fb","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-03T00:00:00.000","end_date":"2025-04-09T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Mentak","faction_full_name":"The Mentak Coalition","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":13,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.3076923077},{"game_id":"67f6ca41c550f0ebca2e75d8","game_name":"Ficki ficki","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-09T00:00:00.000","end_date":"2025-04-17T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"67f6ca41c550f0ebca2e75d8","game_name":"Ficki ficki","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-09T00:00:00.000","end_date":"2025-04-17T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":15,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1333333333},{"game_id":"67f6ca41c550f0ebca2e75d8","game_name":"Ficki ficki","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-09T00:00:00.000","end_date":"2025-04-17T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Hacan","faction_full_name":"The Emirates of Hacan","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":18,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.3888888889},{"game_id":"67f6ca41c550f0ebca2e75d8","game_name":"Ficki ficki","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-09T00:00:00.000","end_date":"2025-04-17T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"67f6ca41c550f0ebca2e75d8","game_name":"Ficki ficki","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-09T00:00:00.000","end_date":"2025-04-17T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":19,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.2631578947},{"game_id":"67f6ca41c550f0ebca2e75d8","game_name":"Ficki ficki","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-09T00:00:00.000","end_date":"2025-04-17T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":14,"cumulated_n_winner":4,"cumulated_overall_win_rate":0.2857142857},{"game_id":"68026115a5dd682b58b16a39","game_name":"Brave and Stupid","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-18T00:00:00.000","end_date":"2025-05-06T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"68026115a5dd682b58b16a39","game_name":"Brave and Stupid","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-18T00:00:00.000","end_date":"2025-05-06T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":16,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.125},{"game_id":"68026115a5dd682b58b16a39","game_name":"Brave and Stupid","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-18T00:00:00.000","end_date":"2025-05-06T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":19,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.3684210526},{"game_id":"68026115a5dd682b58b16a39","game_name":"Brave and Stupid","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-18T00:00:00.000","end_date":"2025-05-06T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"68026115a5dd682b58b16a39","game_name":"Brave and Stupid","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-18T00:00:00.000","end_date":"2025-05-06T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Naalu","faction_full_name":"The Naalu Collective","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":20,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.25},{"game_id":"68026115a5dd682b58b16a39","game_name":"Brave and Stupid","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-04-18T00:00:00.000","end_date":"2025-05-06T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Yin","faction_full_name":null,"victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":15,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.3333333333},{"game_id":"681c7d10d5e12c112a6445d8","game_name":"L1 went awol","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-05-08T00:00:00.000","end_date":"2025-05-19T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"681c7d10d5e12c112a6445d8","game_name":"L1 went awol","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-05-08T00:00:00.000","end_date":"2025-05-19T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":16,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.125},{"game_id":"681c7d10d5e12c112a6445d8","game_name":"L1 went awol","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-05-08T00:00:00.000","end_date":"2025-05-19T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Sol","faction_full_name":"The Federation of Sol","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":20,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.35},{"game_id":"681c7d10d5e12c112a6445d8","game_name":"L1 went awol","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-05-08T00:00:00.000","end_date":"2025-05-19T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"681c7d10d5e12c112a6445d8","game_name":"L1 went awol","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-05-08T00:00:00.000","end_date":"2025-05-19T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Xxcha","faction_full_name":"The Xxcha Kingdom","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":21,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.2857142857},{"game_id":"681c7d10d5e12c112a6445d8","game_name":"L1 went awol","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-05-08T00:00:00.000","end_date":"2025-05-19T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Arborec","faction_full_name":"The Arborec","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":16,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.3125},{"game_id":"683c3f4c96bda541c8e1a373","game_name":"MW-Verl\u00e4ngerung","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-01T00:00:00.000","end_date":"2025-06-18T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"683c3f4c96bda541c8e1a373","game_name":"MW-Verl\u00e4ngerung","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-01T00:00:00.000","end_date":"2025-06-18T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"Mentak","faction_full_name":"The Mentak Coalition","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":17,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1176470588},{"game_id":"683c3f4c96bda541c8e1a373","game_name":"MW-Verl\u00e4ngerung","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-01T00:00:00.000","end_date":"2025-06-18T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Naalu","faction_full_name":"The Naalu Collective","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":21,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.3333333333},{"game_id":"683c3f4c96bda541c8e1a373","game_name":"MW-Verl\u00e4ngerung","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-01T00:00:00.000","end_date":"2025-06-18T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"683c3f4c96bda541c8e1a373","game_name":"MW-Verl\u00e4ngerung","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-01T00:00:00.000","end_date":"2025-06-18T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Muaat","faction_full_name":"The Embers of Muaat","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":22,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.3181818182},{"game_id":"683c3f4c96bda541c8e1a373","game_name":"MW-Verl\u00e4ngerung","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-01T00:00:00.000","end_date":"2025-06-18T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":5.0,"participated":true,"winner":false,"cumulated_n_participated":17,"cumulated_n_winner":5,"cumulated_overall_win_rate":0.2941176471},{"game_id":"6846eff205247103cf2f6010","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-09T00:00:00.000","end_date":"2025-06-24T00:00:00.000","rounds":7,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"6846eff205247103cf2f6010","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-09T00:00:00.000","end_date":"2025-06-24T00:00:00.000","rounds":7,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":17,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1176470588},{"game_id":"6846eff205247103cf2f6010","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-09T00:00:00.000","end_date":"2025-06-24T00:00:00.000","rounds":7,"player_name":"Eric","faction_short_name":"Muaat","faction_full_name":"The Embers of Muaat","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":22,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.3181818182},{"game_id":"6846eff205247103cf2f6010","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-09T00:00:00.000","end_date":"2025-06-24T00:00:00.000","rounds":7,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6846eff205247103cf2f6010","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-09T00:00:00.000","end_date":"2025-06-24T00:00:00.000","rounds":7,"player_name":"Manu","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":23,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.3043478261},{"game_id":"6846eff205247103cf2f6010","game_name":"Flotter Dreier","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-09T00:00:00.000","end_date":"2025-06-24T00:00:00.000","rounds":7,"player_name":"Thomas","faction_short_name":"Arborec","faction_full_name":"The Arborec","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":18,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.3333333333},{"game_id":"685a87538030b9b281c0cc33","game_name":"0 Rage erlaubt, kein sftt swap","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-24T00:00:00.000","end_date":"2025-07-18T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"685a87538030b9b281c0cc33","game_name":"0 Rage erlaubt, kein sftt swap","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-24T00:00:00.000","end_date":"2025-07-18T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"685a87538030b9b281c0cc33","game_name":"0 Rage erlaubt, kein sftt swap","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-24T00:00:00.000","end_date":"2025-07-18T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":23,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.347826087},{"game_id":"685a87538030b9b281c0cc33","game_name":"0 Rage erlaubt, kein sftt swap","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-24T00:00:00.000","end_date":"2025-07-18T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"685a87538030b9b281c0cc33","game_name":"0 Rage erlaubt, kein sftt swap","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-24T00:00:00.000","end_date":"2025-07-18T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":24,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.2916666667},{"game_id":"685a87538030b9b281c0cc33","game_name":"0 Rage erlaubt, kein sftt swap","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-06-24T00:00:00.000","end_date":"2025-07-18T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Empyrean","faction_full_name":"The Empyrean","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":19,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.3157894737},{"game_id":"687a6a4081785bc35b20802f","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-18T00:00:00.000","end_date":"2025-07-23T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"687a6a4081785bc35b20802f","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-18T00:00:00.000","end_date":"2025-07-23T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"687a6a4081785bc35b20802f","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-18T00:00:00.000","end_date":"2025-07-23T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Muaat","faction_full_name":"The Embers of Muaat","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":24,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.375},{"game_id":"687a6a4081785bc35b20802f","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-18T00:00:00.000","end_date":"2025-07-23T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"687a6a4081785bc35b20802f","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-18T00:00:00.000","end_date":"2025-07-23T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":25,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.28},{"game_id":"687a6a4081785bc35b20802f","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-18T00:00:00.000","end_date":"2025-07-23T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Jol","faction_full_name":"The Universities of Jol-Nar","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":20,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.3},{"game_id":"68809ebcbfbc93cec5b50d0d","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-23T00:00:00.000","end_date":"2025-07-30T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"68809ebcbfbc93cec5b50d0d","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-23T00:00:00.000","end_date":"2025-07-30T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"68809ebcbfbc93cec5b50d0d","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-23T00:00:00.000","end_date":"2025-07-30T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Xxcha","faction_full_name":"The Xxcha Kingdom","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":25,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.36},{"game_id":"68809ebcbfbc93cec5b50d0d","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-23T00:00:00.000","end_date":"2025-07-30T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"68809ebcbfbc93cec5b50d0d","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-23T00:00:00.000","end_date":"2025-07-30T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":26,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.3076923077},{"game_id":"68809ebcbfbc93cec5b50d0d","game_name":"Zutiefst Zuwieder wieder","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-23T00:00:00.000","end_date":"2025-07-30T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Empyrean","faction_full_name":"The Empyrean","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":21,"cumulated_n_winner":6,"cumulated_overall_win_rate":0.2857142857},{"game_id":"688a7dd06ca999f50a131e99","game_name":"Wieder zuwider","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-30T00:00:00.000","end_date":"2025-08-04T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"688a7dd06ca999f50a131e99","game_name":"Wieder zuwider","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-30T00:00:00.000","end_date":"2025-08-04T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"688a7dd06ca999f50a131e99","game_name":"Wieder zuwider","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-30T00:00:00.000","end_date":"2025-08-04T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":4.0,"participated":true,"winner":false,"cumulated_n_participated":26,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.3461538462},{"game_id":"688a7dd06ca999f50a131e99","game_name":"Wieder zuwider","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-30T00:00:00.000","end_date":"2025-08-04T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"688a7dd06ca999f50a131e99","game_name":"Wieder zuwider","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-30T00:00:00.000","end_date":"2025-08-04T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":27,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.2962962963},{"game_id":"688a7dd06ca999f50a131e99","game_name":"Wieder zuwider","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-07-30T00:00:00.000","end_date":"2025-08-04T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Yin","faction_full_name":null,"victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":22,"cumulated_n_winner":7,"cumulated_overall_win_rate":0.3181818182},{"game_id":"6890d53480917d9ada584d8e","game_name":"Warten auf mehr PoK Content","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-04T00:00:00.000","end_date":"2025-08-13T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"6890d53480917d9ada584d8e","game_name":"Warten auf mehr PoK Content","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-04T00:00:00.000","end_date":"2025-08-13T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"6890d53480917d9ada584d8e","game_name":"Warten auf mehr PoK Content","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-04T00:00:00.000","end_date":"2025-08-13T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Naalu","faction_full_name":"The Naalu Collective","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":27,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.3333333333},{"game_id":"6890d53480917d9ada584d8e","game_name":"Warten auf mehr PoK Content","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-04T00:00:00.000","end_date":"2025-08-13T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6890d53480917d9ada584d8e","game_name":"Warten auf mehr PoK Content","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-04T00:00:00.000","end_date":"2025-08-13T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Winnu","faction_full_name":"The Winnu","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":28,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.2857142857},{"game_id":"6890d53480917d9ada584d8e","game_name":"Warten auf mehr PoK Content","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-04T00:00:00.000","end_date":"2025-08-13T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":23,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.347826087},{"game_id":"689c4340918b578ec61e122e","game_name":"Urlaubstimmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-13T00:00:00.000","end_date":"2025-08-23T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"689c4340918b578ec61e122e","game_name":"Urlaubstimmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-13T00:00:00.000","end_date":"2025-08-23T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"689c4340918b578ec61e122e","game_name":"Urlaubstimmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-13T00:00:00.000","end_date":"2025-08-23T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Naalu","faction_full_name":"The Naalu Collective","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":28,"cumulated_n_winner":10,"cumulated_overall_win_rate":0.3571428571},{"game_id":"689c4340918b578ec61e122e","game_name":"Urlaubstimmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-13T00:00:00.000","end_date":"2025-08-23T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"689c4340918b578ec61e122e","game_name":"Urlaubstimmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-13T00:00:00.000","end_date":"2025-08-23T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"Yin","faction_full_name":null,"victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":29,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.275862069},{"game_id":"689c4340918b578ec61e122e","game_name":"Urlaubstimmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-13T00:00:00.000","end_date":"2025-08-23T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Muaat","faction_full_name":"The Embers of Muaat","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":24,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.3333333333},{"game_id":"68aa0a800810ff3ac2687f4e","game_name":"Wer hat Manus Mom zuletzt gesehen?","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-23T00:00:00.000","end_date":"2025-08-28T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"68aa0a800810ff3ac2687f4e","game_name":"Wer hat Manus Mom zuletzt gesehen?","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-23T00:00:00.000","end_date":"2025-08-28T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"68aa0a800810ff3ac2687f4e","game_name":"Wer hat Manus Mom zuletzt gesehen?","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-23T00:00:00.000","end_date":"2025-08-28T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Yssaril","faction_full_name":"The Yssaril Tribes","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":29,"cumulated_n_winner":11,"cumulated_overall_win_rate":0.3793103448},{"game_id":"68aa0a800810ff3ac2687f4e","game_name":"Wer hat Manus Mom zuletzt gesehen?","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-23T00:00:00.000","end_date":"2025-08-28T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"68aa0a800810ff3ac2687f4e","game_name":"Wer hat Manus Mom zuletzt gesehen?","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-23T00:00:00.000","end_date":"2025-08-28T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Saar","faction_full_name":"The Clan of Saar","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":30,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.2666666667},{"game_id":"68aa0a800810ff3ac2687f4e","game_name":"Wer hat Manus Mom zuletzt gesehen?","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-23T00:00:00.000","end_date":"2025-08-28T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Arborec","faction_full_name":"The Arborec","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":25,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.32},{"game_id":"68b13bbc8cf23884545eca76","game_name":"Mehr aggro sein dieses Mal","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-29T00:00:00.000","end_date":"2025-09-15T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"68b13bbc8cf23884545eca76","game_name":"Mehr aggro sein dieses Mal","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-29T00:00:00.000","end_date":"2025-09-15T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"68b13bbc8cf23884545eca76","game_name":"Mehr aggro sein dieses Mal","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-29T00:00:00.000","end_date":"2025-09-15T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Arborec","faction_full_name":"The Arborec","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":30,"cumulated_n_winner":12,"cumulated_overall_win_rate":0.4},{"game_id":"68b13bbc8cf23884545eca76","game_name":"Mehr aggro sein dieses Mal","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-29T00:00:00.000","end_date":"2025-09-15T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"68b13bbc8cf23884545eca76","game_name":"Mehr aggro sein dieses Mal","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-29T00:00:00.000","end_date":"2025-09-15T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Hacan","faction_full_name":"The Emirates of Hacan","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":31,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.2580645161},{"game_id":"68b13bbc8cf23884545eca76","game_name":"Mehr aggro sein dieses Mal","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-08-29T00:00:00.000","end_date":"2025-09-15T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Mentak","faction_full_name":"The Mentak Coalition","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":26,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.3076923077},{"game_id":"68c807adb5c98b30851ab64c","game_name":"Rise and Shine","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-09-15T00:00:00.000","end_date":"2025-10-29T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"68c807adb5c98b30851ab64c","game_name":"Rise and Shine","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-09-15T00:00:00.000","end_date":"2025-10-29T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"68c807adb5c98b30851ab64c","game_name":"Rise and Shine","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-09-15T00:00:00.000","end_date":"2025-10-29T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Empyrean","faction_full_name":"The Empyrean","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":31,"cumulated_n_winner":12,"cumulated_overall_win_rate":0.3870967742},{"game_id":"68c807adb5c98b30851ab64c","game_name":"Rise and Shine","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-09-15T00:00:00.000","end_date":"2025-10-29T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"68c807adb5c98b30851ab64c","game_name":"Rise and Shine","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-09-15T00:00:00.000","end_date":"2025-10-29T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"L1Z1X","faction_full_name":"The L1Z1X Mindset","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":32,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.28125},{"game_id":"68c807adb5c98b30851ab64c","game_name":"Rise and Shine","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-09-15T00:00:00.000","end_date":"2025-10-29T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Hacan","faction_full_name":"The Emirates of Hacan","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":27,"cumulated_n_winner":8,"cumulated_overall_win_rate":0.2962962963},{"game_id":"694079731cb455091b9a92cb","game_name":"The return of the Timmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-15T00:00:00.000","end_date":"2025-12-27T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"694079731cb455091b9a92cb","game_name":"The return of the Timmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-15T00:00:00.000","end_date":"2025-12-27T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"694079731cb455091b9a92cb","game_name":"The return of the Timmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-15T00:00:00.000","end_date":"2025-12-27T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":32,"cumulated_n_winner":12,"cumulated_overall_win_rate":0.375},{"game_id":"694079731cb455091b9a92cb","game_name":"The return of the Timmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-15T00:00:00.000","end_date":"2025-12-27T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"694079731cb455091b9a92cb","game_name":"The return of the Timmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-15T00:00:00.000","end_date":"2025-12-27T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Jol","faction_full_name":"The Universities of Jol-Nar","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":33,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.2727272727},{"game_id":"694079731cb455091b9a92cb","game_name":"The return of the Timmy","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-15T00:00:00.000","end_date":"2025-12-27T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Empyrean","faction_full_name":"The Empyrean","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":28,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.3214285714},{"game_id":"69505c9be44f36bfafb98b45","game_name":"Tommy ist einfach Tommy ","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-27T00:00:00.000","end_date":"2026-01-10T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"69505c9be44f36bfafb98b45","game_name":"Tommy ist einfach Tommy ","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-27T00:00:00.000","end_date":"2026-01-10T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"69505c9be44f36bfafb98b45","game_name":"Tommy ist einfach Tommy ","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-27T00:00:00.000","end_date":"2026-01-10T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Sol","faction_full_name":"The Federation of Sol","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":33,"cumulated_n_winner":13,"cumulated_overall_win_rate":0.3939393939},{"game_id":"69505c9be44f36bfafb98b45","game_name":"Tommy ist einfach Tommy ","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-27T00:00:00.000","end_date":"2026-01-10T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"69505c9be44f36bfafb98b45","game_name":"Tommy ist einfach Tommy ","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-27T00:00:00.000","end_date":"2026-01-10T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Muaat","faction_full_name":"The Embers of Muaat","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":34,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.2647058824},{"game_id":"69505c9be44f36bfafb98b45","game_name":"Tommy ist einfach Tommy ","game_max_victory_points":10,"game_n_players":6,"start_date":"2025-12-27T00:00:00.000","end_date":"2026-01-10T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Arborec","faction_full_name":"The Arborec","victory_points":6.0,"participated":true,"winner":false,"cumulated_n_participated":29,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.3103448276},{"game_id":"6962727b1e677f7a6f600b1e","game_name":"Jetzt mal ohne Fehler bitte","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-10T00:00:00.000","end_date":"2026-01-15T00:00:00.000","rounds":6,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"6962727b1e677f7a6f600b1e","game_name":"Jetzt mal ohne Fehler bitte","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-10T00:00:00.000","end_date":"2026-01-15T00:00:00.000","rounds":6,"player_name":"Frank","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":18,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1111111111},{"game_id":"6962727b1e677f7a6f600b1e","game_name":"Jetzt mal ohne Fehler bitte","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-10T00:00:00.000","end_date":"2026-01-15T00:00:00.000","rounds":6,"player_name":"Eric","faction_short_name":"Nekro","faction_full_name":"The Nekro Virus","victory_points":7.0,"participated":true,"winner":false,"cumulated_n_participated":34,"cumulated_n_winner":13,"cumulated_overall_win_rate":0.3823529412},{"game_id":"6962727b1e677f7a6f600b1e","game_name":"Jetzt mal ohne Fehler bitte","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-10T00:00:00.000","end_date":"2026-01-15T00:00:00.000","rounds":6,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"6962727b1e677f7a6f600b1e","game_name":"Jetzt mal ohne Fehler bitte","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-10T00:00:00.000","end_date":"2026-01-15T00:00:00.000","rounds":6,"player_name":"Manu","faction_short_name":"Arborec","faction_full_name":"The Arborec","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":35,"cumulated_n_winner":9,"cumulated_overall_win_rate":0.2571428571},{"game_id":"6962727b1e677f7a6f600b1e","game_name":"Jetzt mal ohne Fehler bitte","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-10T00:00:00.000","end_date":"2026-01-15T00:00:00.000","rounds":6,"player_name":"Thomas","faction_short_name":"Yssaril","faction_full_name":"The Yssaril Tribes","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":30,"cumulated_n_winner":10,"cumulated_overall_win_rate":0.3333333333},{"game_id":"696cdb2972af55390d4e54d5","game_name":"TI We verl\u00e4ngert, wenn ihr euch noch in die Augen schauen k\u00f6nnt","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-18T00:00:00.000","end_date":"2026-02-02T00:00:00.000","rounds":5,"player_name":"Starki","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":1,"cumulated_n_winner":1,"cumulated_overall_win_rate":1.0},{"game_id":"696cdb2972af55390d4e54d5","game_name":"TI We verl\u00e4ngert, wenn ihr euch noch in die Augen schauen k\u00f6nnt","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-18T00:00:00.000","end_date":"2026-02-02T00:00:00.000","rounds":5,"player_name":"Frank","faction_short_name":"Barony","faction_full_name":"The Barony of Letnev","victory_points":8.0,"participated":true,"winner":false,"cumulated_n_participated":19,"cumulated_n_winner":2,"cumulated_overall_win_rate":0.1052631579},{"game_id":"696cdb2972af55390d4e54d5","game_name":"TI We verl\u00e4ngert, wenn ihr euch noch in die Augen schauen k\u00f6nnt","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-18T00:00:00.000","end_date":"2026-02-02T00:00:00.000","rounds":5,"player_name":"Eric","faction_short_name":"Sardakk","faction_full_name":"Sardakk N'orr","victory_points":4.0,"participated":true,"winner":false,"cumulated_n_participated":35,"cumulated_n_winner":13,"cumulated_overall_win_rate":0.3714285714},{"game_id":"696cdb2972af55390d4e54d5","game_name":"TI We verl\u00e4ngert, wenn ihr euch noch in die Augen schauen k\u00f6nnt","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-18T00:00:00.000","end_date":"2026-02-02T00:00:00.000","rounds":5,"player_name":"Steve","faction_short_name":null,"faction_full_name":null,"victory_points":null,"participated":false,"winner":false,"cumulated_n_participated":3,"cumulated_n_winner":0,"cumulated_overall_win_rate":0.0},{"game_id":"696cdb2972af55390d4e54d5","game_name":"TI We verl\u00e4ngert, wenn ihr euch noch in die Augen schauen k\u00f6nnt","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-18T00:00:00.000","end_date":"2026-02-02T00:00:00.000","rounds":5,"player_name":"Manu","faction_short_name":"Hacan","faction_full_name":"The Emirates of Hacan","victory_points":10.0,"participated":true,"winner":true,"cumulated_n_participated":36,"cumulated_n_winner":10,"cumulated_overall_win_rate":0.2777777778},{"game_id":"696cdb2972af55390d4e54d5","game_name":"TI We verl\u00e4ngert, wenn ihr euch noch in die Augen schauen k\u00f6nnt","game_max_victory_points":10,"game_n_players":6,"start_date":"2026-01-18T00:00:00.000","end_date":"2026-02-02T00:00:00.000","rounds":5,"player_name":"Thomas","faction_short_name":"Winnu","faction_full_name":"The Winnu","victory_points":9.0,"participated":true,"winner":false,"cumulated_n_participated":31,"cumulated_n_winner":10,"cumulated_overall_win_rate":0.3225806452}]
+{
+  "games": [
+    {
+      "game_id": "6470772d0cc21e00141af1a5",
+      "game_name": "Bier aus dem Schlauch trinken",
+      "start_date": "2023-05-26T00:00:00",
+      "end_date": "2023-07-13T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 5,
+      "players": [
+        {
+          "player_name": "Starki",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Steve",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "64a81dbdee77a100148764db",
+      "game_name": "Becher aus dem Eimer trinken",
+      "start_date": "2023-07-07T00:00:00",
+      "end_date": "2023-07-28T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 5,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 6,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 5,
+          "winner": false
+        },
+        {
+          "player_name": "Steve",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 4,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "64c613eaff62200014307719",
+      "game_name": "Wasser-Schlauch",
+      "start_date": "2023-07-30T00:00:00",
+      "end_date": "2023-08-13T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 6,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 3,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "64d90d6450dd3a00140001a4",
+      "game_name": "14 p Smackup PoK",
+      "start_date": "2023-09-13T00:00:00",
+      "end_date": "2023-10-12T00:00:00",
+      "rounds": 7,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 5,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "65299e47784ff00014f0c41e",
+      "game_name": "Wer hat hier die Hosen unten?",
+      "start_date": "2023-10-13T00:00:00",
+      "end_date": "2023-11-09T00:00:00",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 12,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "659e96e2ac9f8b0014b3bebe",
+      "game_name": "Friedliches verprügeln",
+      "start_date": "2024-01-10T00:00:00",
+      "end_date": "2024-02-09T00:00:00",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 13,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 10,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "65ca2a4db77b720015197bfc",
+      "game_name": "Wollen wir Freunde sein?",
+      "start_date": "2024-02-12T00:00:00",
+      "end_date": "2024-03-15T00:00:00",
+      "rounds": 7,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "65f53e0342cb1900153c80c5",
+      "game_name": "Flotter Dreier",
+      "start_date": "2024-03-16T00:00:00",
+      "end_date": "2024-04-02T00:00:00",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 12,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 10,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "660d18b4c063f10015c5cc1b",
+      "game_name": "Flotter Dreier 2",
+      "start_date": "2024-04-03T00:00:00",
+      "end_date": "2024-04-13T00:00:00",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 13,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 13,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "661ab137778a0700151551b1",
+      "game_name": "Flotter Vierer",
+      "start_date": "2024-04-13T00:00:00",
+      "end_date": "2024-05-07T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 11,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 5,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "6681c55edcefb80015097c5e",
+      "game_name": "Exploration 4 the win",
+      "start_date": "2024-06-30T00:00:00",
+      "end_date": "2024-08-02T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 11,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 11,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "66ba6de1bb6d9e0015cc8d78",
+      "game_name": "Shizzle",
+      "start_date": "2024-08-12T00:00:00",
+      "end_date": "2024-08-24T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Frank",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "66cb1f970823e40015140021",
+      "game_name": "5er shizzle",
+      "start_date": "2024-08-25T00:00:00",
+      "end_date": "2024-09-23T00:00:00",
+      "rounds": 7,
+      "max_victory_points": 10,
+      "n_players": 5,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Steve",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "66f25b8501afda00150d7336",
+      "game_name": "Langweilig",
+      "start_date": "2024-09-24T00:00:00",
+      "end_date": "2024-10-09T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "671a3e89a022f1de55f3a8bf",
+      "game_name": "Manu trösten",
+      "start_date": "2024-10-24T00:00:00",
+      "end_date": "2024-11-17T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Frank",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 3,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67ac6dfb12236650d4f0cfdc",
+      "game_name": "Viehrer",
+      "start_date": "2025-02-12T00:00:00",
+      "end_date": "2025-03-19T00:00:00",
+      "rounds": 8,
+      "max_victory_points": 14,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 14,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 13,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 12,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 11,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67da6966babd5a850a447f42",
+      "game_name": "Ficken",
+      "start_date": "2025-03-19T00:00:00",
+      "end_date": "2025-04-02T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Creuss",
+          "faction_full": "The Ghosts of Creuss",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67ee493d7c52833bd9a020fb",
+      "game_name": "Flotter Dreier",
+      "start_date": "2025-04-03T00:00:00",
+      "end_date": "2025-04-09T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "67f6ca41c550f0ebca2e75d8",
+      "game_name": "Ficki ficki",
+      "start_date": "2025-04-09T00:00:00",
+      "end_date": "2025-04-17T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68026115a5dd682b58b16a39",
+      "game_name": "Brave and Stupid",
+      "start_date": "2025-04-18T00:00:00",
+      "end_date": "2025-05-06T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "681c7d10d5e12c112a6445d8",
+      "game_name": "L1 went awol",
+      "start_date": "2025-05-08T00:00:00",
+      "end_date": "2025-05-19T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "683c3f4c96bda541c8e1a373",
+      "game_name": "MW-Verlängerung",
+      "start_date": "2025-06-01T00:00:00",
+      "end_date": "2025-06-18T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 5,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "6846eff205247103cf2f6010",
+      "game_name": "Flotter Dreier",
+      "start_date": "2025-06-09T00:00:00",
+      "end_date": "2025-06-24T00:00:00",
+      "rounds": 7,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "685a87538030b9b281c0cc33",
+      "game_name": "0 Rage erlaubt, kein sftt swap",
+      "start_date": "2025-06-24T00:00:00",
+      "end_date": "2025-07-18T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "687a6a4081785bc35b20802f",
+      "game_name": "Zutiefst Zuwieder wieder",
+      "start_date": "2025-07-18T00:00:00",
+      "end_date": "2025-07-23T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68809ebcbfbc93cec5b50d0d",
+      "game_name": "Zutiefst Zuwieder wieder",
+      "start_date": "2025-07-23T00:00:00",
+      "end_date": "2025-07-30T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "688a7dd06ca999f50a131e99",
+      "game_name": "Wieder zuwider",
+      "start_date": "2025-07-30T00:00:00",
+      "end_date": "2025-08-04T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 4,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "6890d53480917d9ada584d8e",
+      "game_name": "Warten auf mehr PoK Content",
+      "start_date": "2025-08-04T00:00:00",
+      "end_date": "2025-08-13T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "689c4340918b578ec61e122e",
+      "game_name": "Urlaubstimmy",
+      "start_date": "2025-08-13T00:00:00",
+      "end_date": "2025-08-23T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68aa0a800810ff3ac2687f4e",
+      "game_name": "Wer hat Manus Mom zuletzt gesehen?",
+      "start_date": "2025-08-23T00:00:00",
+      "end_date": "2025-08-28T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 8,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68b13bbc8cf23884545eca76",
+      "game_name": "Mehr aggro sein dieses Mal",
+      "start_date": "2025-08-29T00:00:00",
+      "end_date": "2025-09-15T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "68c807adb5c98b30851ab64c",
+      "game_name": "Rise and Shine",
+      "start_date": "2025-09-15T00:00:00",
+      "end_date": "2025-10-29T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 9,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "694079731cb455091b9a92cb",
+      "game_name": "The return of the Timmy",
+      "start_date": "2025-12-15T00:00:00",
+      "end_date": "2025-12-27T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "69505c9be44f36bfafb98b45",
+      "game_name": "Tommy ist einfach Tommy ",
+      "start_date": "2025-12-27T00:00:00",
+      "end_date": "2026-01-10T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 7,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 6,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "6962727b1e677f7a6f600b1e",
+      "game_name": "Jetzt mal ohne Fehler bitte",
+      "start_date": "2026-01-10T00:00:00",
+      "end_date": "2026-01-15T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Arborec",
+          "faction_full": "The Arborec",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
+      "game_id": "696cdb2972af55390d4e54d5",
+      "game_name": "TI We verlängert, wenn ihr euch noch in die Augen schauen könnt",
+      "start_date": "2026-01-18T00:00:00",
+      "end_date": "2026-02-02T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 8,
+          "winner": false
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 4,
+          "winner": false
+        }
+      ]
+    }
+  ],
+  "players": [
+    "Eric",
+    "Frank",
+    "Manu",
+    "Starki",
+    "Steve",
+    "Thomas"
+  ],
+  "factions": [
+    {
+      "short": "Arborec",
+      "full": "The Arborec",
+      "icon": "/icons/faction_icons/Arborec.png"
+    },
+    {
+      "short": "Barony",
+      "full": "The Barony of Letnev",
+      "icon": "/icons/faction_icons/Barony.png"
+    },
+    {
+      "short": "Saar",
+      "full": "The Clan of Saar",
+      "icon": "/icons/faction_icons/Saar.png"
+    },
+    {
+      "short": "Muaat",
+      "full": "The Embers of Muaat",
+      "icon": "/icons/faction_icons/Muaat.png"
+    },
+    {
+      "short": "Hacan",
+      "full": "The Emirates of Hacan",
+      "icon": "/icons/faction_icons/Hacan.png"
+    },
+    {
+      "short": "Empyrean",
+      "full": "The Empyrean",
+      "icon": "/icons/faction_icons/Empyrean.png"
+    },
+    {
+      "short": "Sol",
+      "full": "The Federation of Sol",
+      "icon": "/icons/faction_icons/Sol.png"
+    },
+    {
+      "short": "Creuss",
+      "full": "The Ghosts of Creuss",
+      "icon": "/icons/faction_icons/Creuss.png"
+    },
+    {
+      "short": "L1Z1X",
+      "full": "The L1Z1X Mindset",
+      "icon": "/icons/faction_icons/L1Z1X.png"
+    },
+    {
+      "short": "Mentak",
+      "full": "The Mentak Coalition",
+      "icon": "/icons/faction_icons/Mentak.png"
+    },
+    {
+      "short": "Naalu",
+      "full": "The Naalu Collective",
+      "icon": "/icons/faction_icons/Naalu.png"
+    },
+    {
+      "short": "Nekro",
+      "full": "The Nekro Virus",
+      "icon": "/icons/faction_icons/Nekro.png"
+    },
+    {
+      "short": "Sardakk",
+      "full": "Sardakk N'orr",
+      "icon": "/icons/faction_icons/Sardakk.png"
+    },
+    {
+      "short": "Jol",
+      "full": "The Universities of Jol-Nar",
+      "icon": "/icons/faction_icons/Jol.png"
+    },
+    {
+      "short": "Winnu",
+      "full": "The Winnu",
+      "icon": "/icons/faction_icons/Winnu.png"
+    },
+    {
+      "short": "Xxcha",
+      "full": "The Xxcha Kingdom",
+      "icon": "/icons/faction_icons/Xxcha.png"
+    },
+    {
+      "short": "Yssaril",
+      "full": "The Yssaril Tribes",
+      "icon": "/icons/faction_icons/Yssaril.png"
+    }
+  ]
+}
