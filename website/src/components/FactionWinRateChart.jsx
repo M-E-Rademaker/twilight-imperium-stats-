@@ -18,8 +18,8 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
   }, [selectedFaction]);
 
   const handleBarClick = useCallback((data) => {
-    if (data && data.activePayload && data.activePayload.length) {
-      setSelectedFaction(data.activePayload[0].payload);
+    if (data) {
+      setSelectedFaction(data);
     }
   }, []);
 
@@ -239,8 +239,6 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
           data={factionStats}
           layout="vertical"
           margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
-          onClick={handleBarClick}
-          style={{ cursor: 'pointer' }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
           <XAxis
@@ -261,6 +259,8 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
           <Bar
             dataKey="winRate"
             radius={[0, 8, 8, 0]}
+            onClick={handleBarClick}
+            style={{ cursor: 'pointer' }}
           >
             {factionStats.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={getBarColor(parseFloat(entry.winRate))} />
