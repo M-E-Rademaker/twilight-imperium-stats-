@@ -162,7 +162,7 @@ const TwilightImperiumDashboard = () => {
             <FactionWinRateChart
               games={filteredGames}
               factions={data.factions}
-              minGames={2}
+              minGames={1}
               selectedPlayers={filters.players}
             />
           </div>
