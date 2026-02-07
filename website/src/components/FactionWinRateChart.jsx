@@ -105,7 +105,7 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
           {sortedGames.length > 0 && (
             <div className="border-t border-purple-500/30 pt-2">
               <p className="text-gray-400 text-xs mb-1.5">Game Details:</p>
-              <div className="space-y-1.5 max-h-48 overflow-y-auto">
+              <div className="space-y-1.5">
                 {sortedGames.map((g, i) => (
                   <div key={i} className="text-xs flex items-start gap-1.5">
                     <span className={`mt-0.5 flex-shrink-0 ${g.won ? 'text-green-400' : 'text-red-400'}`}>
