@@ -1,7 +1,8 @@
 import React from 'react';
 import { Trophy, Users, Target, Clock, Star, TrendingUp } from 'lucide-react';
+import FactionIcon from './FactionIcon';
 
-const StatCard = ({ icon: Icon, title, value, subtitle, color = 'purple' }) => {
+const StatCard = ({ icon: Icon, title, value, subtitle, color = 'purple', factionShort }) => {
   const colorClasses = {
     purple: 'border-purple-500 bg-gradient-to-br from-purple-900/50 to-gray-900',
     blue: 'border-blue-500 bg-gradient-to-br from-blue-900/50 to-gray-900',
@@ -19,7 +20,11 @@ const StatCard = ({ icon: Icon, title, value, subtitle, color = 'purple' }) => {
           <p className="text-2xl font-bold text-white mb-1">{value}</p>
           {subtitle && <p className="text-xs text-gray-500">{subtitle}</p>}
         </div>
-        <Icon className={`text-${color}-400`} size={24} />
+        {factionShort ? (
+          <FactionIcon factionShort={factionShort} size={32} />
+        ) : (
+          <Icon className={`text-${color}-400`} size={24} />
+        )}
       </div>
     </div>
   );
@@ -105,6 +110,7 @@ const StatsOverview = ({ stats, bestFaction, mostPlayedFaction }) => {
             value={mostPlayedFaction.shortName}
             subtitle={`${mostPlayedFaction.games} games`}
             color="pink"
+            factionShort={mostPlayedFaction.shortName}
           />
         )}
         {bestFaction && (
@@ -114,6 +120,7 @@ const StatsOverview = ({ stats, bestFaction, mostPlayedFaction }) => {
             value={bestFaction.shortName}
             subtitle={`${bestFaction.winRate.toFixed(0)}% WR`}
             color="cyan"
+            factionShort={bestFaction.shortName}
           />
         )}
       </div>
