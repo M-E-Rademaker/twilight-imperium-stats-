@@ -3,7 +3,7 @@
  * @param {Array} games - Array of game objects
  * @returns {Object} Computed statistics
  */
-export const calculateStats = (games) => {
+export const calculateStats = (games, selectedPlayers = []) => {
   if (!games || games.length === 0) {
     return {
       playerStats: {},
@@ -14,6 +14,7 @@ export const calculateStats = (games) => {
     };
   }
 
+  const hasPlayerFilter = selectedPlayers.length > 0;
   const playerStats = {};
   const factionStats = {};
   let totalDurationDays = 0;
@@ -40,6 +41,9 @@ export const calculateStats = (games) => {
     // Process each player in the game
     game.players.forEach(p => {
       if (p.victory_points === null) return; // Player didn't participate
+
+      // When player filter is active, only count stats for selected players
+      if (hasPlayerFilter && !selectedPlayers.includes(p.player_name)) return;
 
       // Player statistics
       if (!playerStats[p.player_name]) {
