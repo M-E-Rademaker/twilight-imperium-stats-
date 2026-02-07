@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import FactionIcon from './FactionIcon';
 
-const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = [] }) => {
+const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = [] }) => {
   const hasPlayerFilter = selectedPlayers.length > 0;
 
   const factionStats = useMemo(() => {
@@ -133,8 +133,8 @@ const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = 
         </h2>
         <p className="text-gray-400 text-sm">
           {hasPlayerFilter
-            ? `Personal win rates for ${selectedPlayers.join(', ')} (minimum ${minGames} games)`
-            : `Performance by faction (minimum ${minGames} games)`
+            ? `Personal win rates for ${selectedPlayers.join(', ')}`
+            : `Performance by faction`
           }
         </p>
       </div>
