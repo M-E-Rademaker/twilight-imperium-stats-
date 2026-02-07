@@ -12,6 +12,8 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
     const stats = {};
 
     games.forEach(game => {
+      const gameWinner = game.players.find(p => p.winner);
+
       game.players.forEach(player => {
         // When player filter is active, only count stats for the selected players
         if (hasPlayerFilter && !selectedPlayers.includes(player.player_name)) {
@@ -24,13 +26,23 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
               faction_short: player.faction_short,
               faction_full: player.faction_full,
               games: 0,
-              wins: 0
+              wins: 0,
+              gameDetails: []
             };
           }
           stats[player.faction_short].games++;
           if (player.winner) {
             stats[player.faction_short].wins++;
           }
+          stats[player.faction_short].gameDetails.push({
+            game_name: game.game_name,
+            start_date: game.start_date,
+            player_name: player.player_name,
+            victory_points: player.victory_points,
+            won: player.winner,
+            game_winner: gameWinner ? gameWinner.player_name : null,
+            game_winner_faction: gameWinner ? gameWinner.faction_short : null
+          });
         }
       });
     });
@@ -73,13 +85,16 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
+      const sortedGames = [...(data.gameDetails || [])].sort(
+        (a, b) => new Date(b.start_date) - new Date(a.start_date)
+      );
       return (
-        <div className="bg-gray-800/95 border-2 border-purple-500 rounded-lg p-3 shadow-lg max-w-xs">
+        <div className="bg-gray-800/95 border-2 border-purple-500 rounded-lg p-3 shadow-lg max-w-sm">
           <div className="flex items-center gap-2 mb-2">
             <FactionIcon factionShort={data.faction_short} size={20} />
             <p className="text-white font-semibold">{data.faction_full}</p>
           </div>
-          <div className="space-y-1 text-sm">
+          <div className="space-y-1 text-sm mb-3">
             <p className="text-purple-300">
               Win Rate: <span className="font-bold text-pink-300">{data.winRate}%</span>
             </p>
@@ -87,6 +102,33 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
               Wins: <span className="font-semibold text-white">{data.wins}</span> / {data.games} games
             </p>
           </div>
+          {sortedGames.length > 0 && (
+            <div className="border-t border-purple-500/30 pt-2">
+              <p className="text-gray-400 text-xs mb-1.5">Game Details:</p>
+              <div className="space-y-1.5 max-h-48 overflow-y-auto">
+                {sortedGames.map((g, i) => (
+                  <div key={i} className="text-xs flex items-start gap-1.5">
+                    <span className={`mt-0.5 flex-shrink-0 ${g.won ? 'text-green-400' : 'text-red-400'}`}>
+                      {g.won ? '✓' : '✗'}
+                    </span>
+                    <div>
+                      <span className="text-gray-300">{g.game_name}</span>
+                      <span className="text-gray-500 ml-1">
+                        ({new Date(g.start_date).toLocaleDateString()})
+                      </span>
+                      <br />
+                      <span className="text-gray-400">
+                        {g.won
+                          ? <><span className="text-green-400 font-medium">{g.player_name}</span> won ({g.victory_points} VP)</>
+                          : <>Won by <span className="text-yellow-400 font-medium">{g.game_winner}</span> — {g.player_name}: {g.victory_points} VP</>
+                        }
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       );
     }
