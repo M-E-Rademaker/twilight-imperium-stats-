@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import FactionIcon from './FactionIcon';
 
 const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = [] }) => {
   const hasPlayerFilter = selectedPlayers.length > 0;
@@ -46,13 +47,38 @@ const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = 
     return factionArray;
   }, [games, minGames, hasPlayerFilter, selectedPlayers]);
 
+  // Custom Y-axis tick with faction icon
+  const CustomYAxisTick = ({ x, y, payload }) => {
+    const factionShort = payload.value;
+    return (
+      <g transform={`translate(${x},${y})`}>
+        <foreignObject x={-90} y={-12} width={88} height={24}>
+          <div xmlns="http://www.w3.org/1999/xhtml" style={{ display: 'flex', alignItems: 'center', gap: '4px', justifyContent: 'flex-end' }}>
+            <img
+              src={`/icons/faction_icons/${factionShort}.png`}
+              alt=""
+              style={{ width: 18, height: 18, objectFit: 'contain', flexShrink: 0 }}
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+            <span style={{ color: '#9ca3af', fontSize: 12, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+              {factionShort}
+            </span>
+          </div>
+        </foreignObject>
+      </g>
+    );
+  };
+
   // Custom tooltip
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (
         <div className="bg-gray-800/95 border-2 border-purple-500 rounded-lg p-3 shadow-lg max-w-xs">
-          <p className="text-white font-semibold mb-2">{data.faction_full}</p>
+          <div className="flex items-center gap-2 mb-2">
+            <FactionIcon factionShort={data.faction_short} size={20} />
+            <p className="text-white font-semibold">{data.faction_full}</p>
+          </div>
           <div className="space-y-1 text-sm">
             <p className="text-purple-300">
               Win Rate: <span className="font-bold text-pink-300">{data.winRate}%</span>
@@ -131,8 +157,8 @@ const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = 
             type="category"
             dataKey="faction_short"
             stroke="#9ca3af"
-            tick={{ fill: '#9ca3af', fontSize: 12 }}
-            width={70}
+            tick={<CustomYAxisTick />}
+            width={95}
           />
           <Tooltip content={<CustomTooltip />} cursor={{ fill: 'rgba(139, 92, 246, 0.1)' }} />
           <Bar
@@ -157,9 +183,12 @@ const FactionWinRateChart = ({ games, factions, minGames = 2, selectedPlayers = 
           </div>
           <div>
             <p className="text-gray-400">Best Faction</p>
-            <p className="text-white font-semibold text-lg">
-              {factionStats[0]?.faction_short || 'N/A'}
-            </p>
+            <div className="flex items-center gap-2">
+              {factionStats[0] && <FactionIcon factionShort={factionStats[0].faction_short} size={22} />}
+              <p className="text-white font-semibold text-lg">
+                {factionStats[0]?.faction_short || 'N/A'}
+              </p>
+            </div>
           </div>
           <div className="col-span-2 md:col-span-1">
             <p className="text-gray-400">Top Win Rate</p>
