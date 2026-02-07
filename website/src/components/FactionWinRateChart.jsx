@@ -1,9 +1,27 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useCallback, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import FactionIcon from './FactionIcon';
 
 const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = [] }) => {
   const hasPlayerFilter = selectedPlayers.length > 0;
+  const [selectedFaction, setSelectedFaction] = useState(null);
+
+  // Close modal on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setSelectedFaction(null);
+    };
+    if (selectedFaction) {
+      document.addEventListener('keydown', handleKeyDown);
+      return () => document.removeEventListener('keydown', handleKeyDown);
+    }
+  }, [selectedFaction]);
+
+  const handleBarClick = useCallback((data) => {
+    if (data && data.activePayload && data.activePayload.length) {
+      setSelectedFaction(data.activePayload[0].payload);
+    }
+  }, []);
 
   const factionStats = useMemo(() => {
     if (!games || games.length === 0) return [];
@@ -81,20 +99,17 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
     );
   };
 
-  // Custom tooltip
+  // Hover tooltip (summary only — tap/click bar for full game details)
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
-      const sortedGames = [...(data.gameDetails || [])].sort(
-        (a, b) => new Date(b.start_date) - new Date(a.start_date)
-      );
       return (
         <div className="bg-gray-800/95 border-2 border-purple-500 rounded-lg p-3 shadow-lg max-w-sm">
           <div className="flex items-center gap-2 mb-2">
             <FactionIcon factionShort={data.faction_short} size={20} />
             <p className="text-white font-semibold">{data.faction_full}</p>
           </div>
-          <div className="space-y-1 text-sm mb-3">
+          <div className="space-y-1 text-sm">
             <p className="text-purple-300">
               Win Rate: <span className="font-bold text-pink-300">{data.winRate}%</span>
             </p>
@@ -102,37 +117,75 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
               Wins: <span className="font-semibold text-white">{data.wins}</span> / {data.games} games
             </p>
           </div>
-          {sortedGames.length > 0 && (
-            <div className="border-t border-purple-500/30 pt-2">
-              <p className="text-gray-400 text-xs mb-1.5">Game Details:</p>
-              <div className="space-y-1.5 max-h-48 overflow-y-auto">
-                {sortedGames.map((g, i) => (
-                  <div key={i} className="text-xs flex items-start gap-1.5">
-                    <span className={`mt-0.5 flex-shrink-0 ${g.won ? 'text-green-400' : 'text-red-400'}`}>
-                      {g.won ? '✓' : '✗'}
-                    </span>
-                    <div>
-                      <span className="text-gray-300">{g.game_name}</span>
-                      <span className="text-gray-500 ml-1">
-                        ({new Date(g.start_date).toLocaleDateString()})
-                      </span>
-                      <br />
-                      <span className="text-gray-400">
-                        {g.won
-                          ? <><span className="text-green-400 font-medium">{g.player_name}</span> won ({g.victory_points} VP)</>
-                          : <>Won by <span className="text-yellow-400 font-medium">{g.game_winner}</span> — {g.player_name}: {g.victory_points} VP</>
-                        }
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
+          <p className="text-gray-500 text-xs mt-2">Tap for game details</p>
         </div>
       );
     }
     return null;
+  };
+
+  // Full-screen detail modal (accessible on all devices via click/tap)
+  const FactionDetailModal = ({ data, onClose }) => {
+    if (!data) return null;
+    const sortedGames = [...(data.gameDetails || [])].sort(
+      (a, b) => new Date(b.start_date) - new Date(a.start_date)
+    );
+    return (
+      <div
+        className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/60"
+        onClick={onClose}
+      >
+        <div
+          className="bg-gray-800 border-2 border-purple-500 rounded-t-2xl sm:rounded-2xl w-full sm:max-w-md max-h-[80vh] flex flex-col shadow-2xl"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {/* Header */}
+          <div className="flex items-center justify-between p-4 border-b border-purple-500/30 flex-shrink-0">
+            <div className="flex items-center gap-3">
+              <FactionIcon factionShort={data.faction_short} size={28} />
+              <div>
+                <p className="text-white font-semibold text-lg">{data.faction_full}</p>
+                <p className="text-purple-300 text-sm">
+                  Win Rate: <span className="font-bold text-pink-300">{data.winRate}%</span>
+                  {' '}&mdash;{' '}
+                  <span className="text-white font-semibold">{data.wins}</span> / {data.games} games
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={onClose}
+              className="text-gray-400 hover:text-white text-2xl leading-none p-1"
+              aria-label="Close"
+            >
+              &times;
+            </button>
+          </div>
+          {/* Scrollable game list */}
+          <div className="overflow-y-auto overscroll-contain p-4 space-y-2">
+            {sortedGames.map((g, i) => (
+              <div key={i} className="text-sm flex items-start gap-2 py-1.5 border-b border-gray-700/50 last:border-0">
+                <span className={`mt-0.5 flex-shrink-0 ${g.won ? 'text-green-400' : 'text-red-400'}`}>
+                  {g.won ? '✓' : '✗'}
+                </span>
+                <div>
+                  <span className="text-gray-200">{g.game_name}</span>
+                  <span className="text-gray-500 ml-1.5">
+                    ({new Date(g.start_date).toLocaleDateString()})
+                  </span>
+                  <br />
+                  <span className="text-gray-400">
+                    {g.won
+                      ? <><span className="text-green-400 font-medium">{g.player_name}</span> won ({g.victory_points} VP)</>
+                      : <>Won by <span className="text-yellow-400 font-medium">{g.game_winner}</span> &mdash; {g.player_name}: {g.victory_points} VP</>
+                    }
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
   };
 
   // Color based on win rate (gradient from red to green)
@@ -186,6 +239,8 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
           data={factionStats}
           layout="vertical"
           margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
+          onClick={handleBarClick}
+          style={{ cursor: 'pointer' }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
           <XAxis
@@ -240,6 +295,11 @@ const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = 
           </div>
         </div>
       </div>
+
+      {/* Faction detail modal (opened by tapping/clicking a bar) */}
+      {selectedFaction && (
+        <FactionDetailModal data={selectedFaction} onClose={() => setSelectedFaction(null)} />
+      )}
     </div>
   );
 };
