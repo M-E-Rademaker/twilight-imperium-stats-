@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { X, Trophy, Calendar, Users, Target, Clock } from 'lucide-react';
+import FactionIcon from './FactionIcon';
 
 const GameDetails = ({ game, onClose }) => {
   // Close on escape key
@@ -127,14 +128,7 @@ const GameDetails = ({ game, onClose }) => {
 
                 {/* Faction Icon */}
                 {player.faction_short && (
-                  <img
-                    src={`/icons/faction_icons/${player.faction_short}.png`}
-                    alt={player.faction_short}
-                    className="w-12 h-12 object-contain"
-                    onError={(e) => {
-                      e.target.style.display = 'none';
-                    }}
-                  />
+                  <FactionIcon factionShort={player.faction_short} size={48} />
                 )}
 
                 {/* Player Info */}
