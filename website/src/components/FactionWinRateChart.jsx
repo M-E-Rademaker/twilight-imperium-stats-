@@ -1,7 +1,28 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useCallback, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import FactionIcon from './FactionIcon';
 
-const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
+const FactionWinRateChart = ({ games, factions, minGames = 1, selectedPlayers = [] }) => {
+  const hasPlayerFilter = selectedPlayers.length > 0;
+  const [selectedFaction, setSelectedFaction] = useState(null);
+
+  // Close modal on Escape key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setSelectedFaction(null);
+    };
+    if (selectedFaction) {
+      document.addEventListener('keydown', handleKeyDown);
+      return () => document.removeEventListener('keydown', handleKeyDown);
+    }
+  }, [selectedFaction]);
+
+  const handleBarClick = useCallback((data) => {
+    if (data) {
+      setSelectedFaction(data);
+    }
+  }, []);
+
   const factionStats = useMemo(() => {
     if (!games || games.length === 0) return [];
 
@@ -9,20 +30,37 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
     const stats = {};
 
     games.forEach(game => {
+      const gameWinner = game.players.find(p => p.winner);
+
       game.players.forEach(player => {
+        // When player filter is active, only count stats for the selected players
+        if (hasPlayerFilter && !selectedPlayers.includes(player.player_name)) {
+          return;
+        }
+
         if (player.faction_short && player.victory_points !== null) {
           if (!stats[player.faction_short]) {
             stats[player.faction_short] = {
               faction_short: player.faction_short,
               faction_full: player.faction_full,
               games: 0,
-              wins: 0
+              wins: 0,
+              gameDetails: []
             };
           }
           stats[player.faction_short].games++;
           if (player.winner) {
             stats[player.faction_short].wins++;
           }
+          stats[player.faction_short].gameDetails.push({
+            game_name: game.game_name,
+            start_date: game.start_date,
+            player_name: player.player_name,
+            victory_points: player.victory_points,
+            won: player.winner,
+            game_winner: gameWinner ? gameWinner.player_name : null,
+            game_winner_faction: gameWinner ? gameWinner.faction_short : null
+          });
         }
       });
     });
@@ -37,15 +75,40 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
       .sort((a, b) => b.winRate - a.winRate);
 
     return factionArray;
-  }, [games, minGames]);
+  }, [games, minGames, hasPlayerFilter, selectedPlayers]);
 
-  // Custom tooltip
+  // Custom Y-axis tick with faction icon
+  const CustomYAxisTick = ({ x, y, payload }) => {
+    const factionShort = payload.value;
+    return (
+      <g transform={`translate(${x},${y})`}>
+        <foreignObject x={-90} y={-12} width={88} height={24}>
+          <div xmlns="http://www.w3.org/1999/xhtml" style={{ display: 'flex', alignItems: 'center', gap: '4px', justifyContent: 'flex-end' }}>
+            <img
+              src={`/icons/faction_icons/${factionShort}.png`}
+              alt=""
+              style={{ width: 18, height: 18, objectFit: 'contain', flexShrink: 0 }}
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+            <span style={{ color: '#9ca3af', fontSize: 12, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+              {factionShort}
+            </span>
+          </div>
+        </foreignObject>
+      </g>
+    );
+  };
+
+  // Hover tooltip (summary only — tap/click bar for full game details)
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (
-        <div className="bg-gray-800/95 border-2 border-purple-500 rounded-lg p-3 shadow-lg max-w-xs">
-          <p className="text-white font-semibold mb-2">{data.faction_full}</p>
+        <div className="bg-gray-800/95 border-2 border-purple-500 rounded-lg p-3 shadow-lg max-w-sm">
+          <div className="flex items-center gap-2 mb-2">
+            <FactionIcon factionShort={data.faction_short} size={20} />
+            <p className="text-white font-semibold">{data.faction_full}</p>
+          </div>
           <div className="space-y-1 text-sm">
             <p className="text-purple-300">
               Win Rate: <span className="font-bold text-pink-300">{data.winRate}%</span>
@@ -54,10 +117,75 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
               Wins: <span className="font-semibold text-white">{data.wins}</span> / {data.games} games
             </p>
           </div>
+          <p className="text-gray-500 text-xs mt-2">Tap for game details</p>
         </div>
       );
     }
     return null;
+  };
+
+  // Full-screen detail modal (accessible on all devices via click/tap)
+  const FactionDetailModal = ({ data, onClose }) => {
+    if (!data) return null;
+    const sortedGames = [...(data.gameDetails || [])].sort(
+      (a, b) => new Date(b.start_date) - new Date(a.start_date)
+    );
+    return (
+      <div
+        className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/60"
+        onClick={onClose}
+      >
+        <div
+          className="bg-gray-800 border-2 border-purple-500 rounded-t-2xl sm:rounded-2xl w-full sm:max-w-md max-h-[80vh] flex flex-col shadow-2xl"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {/* Header */}
+          <div className="flex items-center justify-between p-4 border-b border-purple-500/30 flex-shrink-0">
+            <div className="flex items-center gap-3">
+              <FactionIcon factionShort={data.faction_short} size={28} />
+              <div>
+                <p className="text-white font-semibold text-lg">{data.faction_full}</p>
+                <p className="text-purple-300 text-sm">
+                  Win Rate: <span className="font-bold text-pink-300">{data.winRate}%</span>
+                  {' '}&mdash;{' '}
+                  <span className="text-white font-semibold">{data.wins}</span> / {data.games} games
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={onClose}
+              className="text-gray-400 hover:text-white text-2xl leading-none p-1"
+              aria-label="Close"
+            >
+              &times;
+            </button>
+          </div>
+          {/* Scrollable game list */}
+          <div className="overflow-y-auto overscroll-contain p-4 space-y-2">
+            {sortedGames.map((g, i) => (
+              <div key={i} className="text-sm flex items-start gap-2 py-1.5 border-b border-gray-700/50 last:border-0">
+                <span className={`mt-0.5 flex-shrink-0 ${g.won ? 'text-green-400' : 'text-red-400'}`}>
+                  {g.won ? '✓' : '✗'}
+                </span>
+                <div>
+                  <span className="text-gray-200">{g.game_name}</span>
+                  <span className="text-gray-500 ml-1.5">
+                    ({new Date(g.start_date).toLocaleDateString()})
+                  </span>
+                  <br />
+                  <span className="text-gray-400">
+                    {g.won
+                      ? <><span className="text-green-400 font-medium">{g.player_name}</span> won ({g.victory_points} VP)</>
+                      : <>Won by <span className="text-yellow-400 font-medium">{g.game_winner}</span> &mdash; {g.player_name}: {g.victory_points} VP</>
+                    }
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
   };
 
   // Color based on win rate (gradient from red to green)
@@ -90,9 +218,19 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
   return (
     <div className="bg-gray-800/50 backdrop-blur border-2 border-purple-500/50 rounded-lg p-6">
       <div className="mb-4">
-        <h2 className="text-xl font-bold text-white mb-1">Faction Win Rates</h2>
+        <h2 className="text-xl font-bold text-white mb-1">
+          Faction Win Rates
+          {hasPlayerFilter && (
+            <span className="ml-2 text-sm font-medium text-purple-300 bg-purple-500/20 px-2 py-0.5 rounded-full">
+              {selectedPlayers.join(', ')}
+            </span>
+          )}
+        </h2>
         <p className="text-gray-400 text-sm">
-          Performance by faction (minimum {minGames} games)
+          {hasPlayerFilter
+            ? `Personal win rates for ${selectedPlayers.join(', ')}`
+            : `Performance by faction`
+          }
         </p>
       </div>
 
@@ -100,7 +238,7 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
         <BarChart
           data={factionStats}
           layout="vertical"
-          margin={{ top: 5, right: 30, left: 120, bottom: 5 }}
+          margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#374151" opacity={0.3} />
           <XAxis
@@ -114,13 +252,15 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
             type="category"
             dataKey="faction_short"
             stroke="#9ca3af"
-            tick={{ fill: '#9ca3af', fontSize: 12 }}
-            width={110}
+            tick={<CustomYAxisTick />}
+            width={95}
           />
           <Tooltip content={<CustomTooltip />} cursor={{ fill: 'rgba(139, 92, 246, 0.1)' }} />
           <Bar
             dataKey="winRate"
             radius={[0, 8, 8, 0]}
+            onClick={handleBarClick}
+            style={{ cursor: 'pointer' }}
           >
             {factionStats.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={getBarColor(parseFloat(entry.winRate))} />
@@ -140,9 +280,12 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
           </div>
           <div>
             <p className="text-gray-400">Best Faction</p>
-            <p className="text-white font-semibold text-lg">
-              {factionStats[0]?.faction_short || 'N/A'}
-            </p>
+            <div className="flex items-center gap-2">
+              {factionStats[0] && <FactionIcon factionShort={factionStats[0].faction_short} size={22} />}
+              <p className="text-white font-semibold text-lg">
+                {factionStats[0]?.faction_short || 'N/A'}
+              </p>
+            </div>
           </div>
           <div className="col-span-2 md:col-span-1">
             <p className="text-gray-400">Top Win Rate</p>
@@ -152,6 +295,11 @@ const FactionWinRateChart = ({ games, factions, minGames = 2 }) => {
           </div>
         </div>
       </div>
+
+      {/* Faction detail modal (opened by tapping/clicking a bar) */}
+      {selectedFaction && (
+        <FactionDetailModal data={selectedFaction} onClose={() => setSelectedFaction(null)} />
+      )}
     </div>
   );
 };
