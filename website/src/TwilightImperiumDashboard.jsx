@@ -39,15 +39,21 @@ const TwilightImperiumDashboard = () => {
     return applyFilters(data.games, filters);
   }, [data, filters]);
 
+  // When player filter is active, only show those players across all components
+  const displayPlayers = useMemo(() => {
+    if (!data) return [];
+    return filters.players.length > 0 ? filters.players : data.players;
+  }, [data, filters.players]);
+
   const stats = useMemo(() => {
     if (!data) return null;
-    return calculateStats(filteredGames);
-  }, [filteredGames, data]);
+    return calculateStats(filteredGames, filters.players);
+  }, [filteredGames, data, filters.players]);
 
   const timelineData = useMemo(() => {
     if (!data) return {};
-    return calculateWinRateTimeline(filteredGames, data.players);
-  }, [filteredGames, data]);
+    return calculateWinRateTimeline(filteredGames, displayPlayers);
+  }, [filteredGames, displayPlayers]);
 
   const bestFaction = useMemo(() => {
     if (!stats) return null;
@@ -135,13 +141,13 @@ const TwilightImperiumDashboard = () => {
             {/* Participation Timeline */}
             <ParticipationTimeline
               games={filteredGames}
-              players={data.players}
+              players={displayPlayers}
             />
 
             {/* Win Rate Chart */}
             <WinRateChart
               timelineData={timelineData}
-              players={data.players}
+              players={displayPlayers}
             />
           </div>
 
@@ -156,7 +162,8 @@ const TwilightImperiumDashboard = () => {
             <FactionWinRateChart
               games={filteredGames}
               factions={data.factions}
-              minGames={2}
+              minGames={1}
+              selectedPlayers={filters.players}
             />
           </div>
 

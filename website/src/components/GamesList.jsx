@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Trophy, Users, Calendar, Target } from 'lucide-react';
+import FactionIcon from './FactionIcon';
 
 const GameCard = ({ game, onClick }) => {
   const winner = game.players.find(p => p.winner);
@@ -20,8 +21,11 @@ const GameCard = ({ game, onClick }) => {
         </div>
         {winner && (
           <div className="flex items-center gap-2 bg-yellow-500/20 px-2 py-1 rounded">
-            <Trophy className="text-yellow-400" size={16} />
+            <Trophy className="text-yellow-400 flex-shrink-0" size={16} />
             <span className="text-sm font-semibold text-yellow-400">{winner.player_name}</span>
+            {winner.faction_short && (
+              <FactionIcon factionShort={winner.faction_short} size={20} />
+            )}
           </div>
         )}
       </div>
@@ -64,8 +68,11 @@ const GameRow = ({ game, onClick }) => {
       <td className="px-4 py-3 text-sm">
         {winner && (
           <div className="flex items-center gap-2">
-            <Trophy className="text-yellow-400" size={16} />
+            <Trophy className="text-yellow-400 flex-shrink-0" size={16} />
             <span className="text-yellow-400 font-semibold">{winner.player_name}</span>
+            {winner.faction_short && (
+              <FactionIcon factionShort={winner.faction_short} size={20} />
+            )}
           </div>
         )}
       </td>

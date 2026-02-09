@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp, X } from 'lucide-react';
+import FactionIcon from './FactionIcon';
 
 const FilterPanel = ({ filters, setFilters, players, factions, activeFiltersCount }) => {
   const [isExpanded, setIsExpanded] = useState(true);
@@ -165,14 +166,7 @@ const FilterPanel = ({ filters, setFilters, players, factions, activeFiltersCoun
                   }`}
                   title={faction.full}
                 >
-                  <img
-                    src={faction.icon}
-                    alt={faction.short}
-                    className="w-6 h-6 object-contain"
-                    onError={(e) => {
-                      e.target.style.display = 'none';
-                    }}
-                  />
+                  <FactionIcon factionShort={faction.short} size={24} />
                   <span className="truncate">{faction.short}</span>
                 </button>
               ))}
