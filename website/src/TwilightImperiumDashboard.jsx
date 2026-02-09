@@ -117,7 +117,10 @@ const TwilightImperiumDashboard = () => {
           <p className="text-gray-400 text-lg">
             Gaming Group Performance Analysis
           </p>
-          <div className="mt-3 inline-block bg-purple-900/40 border border-purple-500/40 rounded-lg px-4 py-2">
+          <div className="mt-3 inline-flex flex-col gap-1 bg-purple-900/40 border border-purple-500/40 rounded-lg px-4 py-2">
+            <p className="text-purple-300 text-sm">
+              Website created by <span className="text-white font-semibold">Manuel Rademaker</span> with help from his friend <span className="text-white font-semibold">Claude Code</span> 🦞
+            </p>
             <p className="text-purple-300 text-sm">
               Data contributed by <span className="text-white font-semibold">Eric Holfert</span>
             </p>
