@@ -62,6 +62,7 @@ def process_ti_data():
             "rounds": int(game_row['rounds']) if pd.notna(game_row['rounds']) else None,
             "max_victory_points": int(game_row['game_max_victory_points']),
             "n_players": n_players,
+            "win_description": game_row['win_description'] if pd.notna(game_row.get('win_description')) else None,
             "players": players
         }
         games.append(game)

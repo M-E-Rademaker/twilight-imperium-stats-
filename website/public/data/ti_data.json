@@ -8,6 +8,7 @@
       "rounds": 6,
       "max_victory_points": 10,
       "n_players": 6,
+      "win_description": "Statusphase, Starki Naalu 3 VP mit Public und Sekret",
       "players": [
         {
           "player_name": "Starki",
@@ -67,6 +68,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 5,
+      "win_description": "Statusphase, Manu Jol 2 VP mit 1 Public und Sekret, hatte auch Imperial aber nur für 1 PO (nicht MR) in Runde. Speaker letzte Runde war Eric ",
       "players": [
         {
           "player_name": "Manu",
@@ -118,6 +120,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Aktionsphase: Manu spielt Imperial und scort Lead from the Front",
       "players": [
         {
           "player_name": "Manu",
@@ -153,6 +156,7 @@
       "rounds": 7,
       "max_victory_points": 14,
       "n_players": 4,
+      "win_description": "Eric in Aktionphase, hatte auch Imperial für 2 VP PO, Sieg aber unklar warum",
       "players": [
         {
           "player_name": "Eric",
@@ -196,6 +200,7 @@
       "rounds": 8,
       "max_victory_points": 14,
       "n_players": 3,
+      "win_description": "Win in Agendaphase, da Political Censure",
       "players": [
         {
           "player_name": "Eric",
@@ -231,6 +236,7 @@
       "rounds": 8,
       "max_victory_points": 14,
       "n_players": 4,
+      "win_description": "Sieg Eric in Aktionphase durch Sekret Destroy Their greatest ship",
       "players": [
         {
           "player_name": "Eric",
@@ -274,6 +280,7 @@
       "rounds": 7,
       "max_victory_points": 14,
       "n_players": 4,
+      "win_description": "Thomas in Statusphase 2 VP, 1 PO 1 Sekret",
       "players": [
         {
           "player_name": "Thomas",
@@ -317,6 +324,7 @@
       "rounds": 8,
       "max_victory_points": 14,
       "n_players": 3,
+      "win_description": "Thomas in Statusphase 2 VP mit PO",
       "players": [
         {
           "player_name": "Thomas",
@@ -352,6 +360,7 @@
       "rounds": 8,
       "max_victory_points": 14,
       "n_players": 3,
+      "win_description": "Manu in Aktionsphase mit Imperial 1 VP PO",
       "players": [
         {
           "player_name": "Manu",
@@ -387,6 +396,7 @@
       "rounds": 6,
       "max_victory_points": 14,
       "n_players": 4,
+      "win_description": "Eric in Statusphase mit 2VP PO",
       "players": [
         {
           "player_name": "Eric",
@@ -430,6 +440,7 @@
       "rounds": 6,
       "max_victory_points": 14,
       "n_players": 4,
+      "win_description": "Eric in Agendaphase mit Crown of Emphidia",
       "players": [
         {
           "player_name": "Eric",
@@ -473,6 +484,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Frank, Aktionsphase, Sekret Destroy their greatest Ship",
       "players": [
         {
           "player_name": "Frank",
@@ -508,6 +520,7 @@
       "rounds": 7,
       "max_victory_points": 10,
       "n_players": 5,
+      "win_description": "Manu, Aktionsphase, Sekret Destroy their greatest Ship",
       "players": [
         {
           "player_name": "Manu",
@@ -559,6 +572,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Eric, Statusphase 1 VP mit Sekret",
       "players": [
         {
           "player_name": "Eric",
@@ -594,6 +608,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Frank, Statusphase 1 VP mit PO",
       "players": [
         {
           "player_name": "Frank",
@@ -629,6 +644,7 @@
       "rounds": 8,
       "max_victory_points": 14,
       "n_players": 4,
+      "win_description": "Thomas, Statusphase, 1 VP mit PO",
       "players": [
         {
           "player_name": "Thomas",
@@ -672,6 +688,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 4,
+      "win_description": "Thomas durch Support Trade",
       "players": [
         {
           "player_name": "Thomas",
@@ -715,6 +732,7 @@
       "rounds": 6,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Manu in Statusphase, 2 VP mit PO",
       "players": [
         {
           "player_name": "Manu",
@@ -750,6 +768,7 @@
       "rounds": 6,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Eric in Aktionsphase mit Imperial, 1 VP PO und 1 VP MR",
       "players": [
         {
           "player_name": "Eric",
@@ -785,6 +804,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 4,
+      "win_description": "Thomas in Statusphase 1 VP mit PO",
       "players": [
         {
           "player_name": "Thomas",
@@ -828,6 +848,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Manu in Statusphase, 1 VP mit PO",
       "players": [
         {
           "player_name": "Manu",
@@ -863,6 +884,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 4,
+      "win_description": "Manu in Aktionsphase mit Imperial 1 VP PO",
       "players": [
         {
           "player_name": "Manu",
@@ -906,6 +928,7 @@
       "rounds": 7,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Thomas in Aktionsphase mit Sekret Destroy Their greates Ship",
       "players": [
         {
           "player_name": "Thomas",
@@ -941,6 +964,7 @@
       "rounds": 6,
       "max_victory_points": 10,
       "n_players": 4,
+      "win_description": "Eric in Aktionsphase durch Shard of the Throne",
       "players": [
         {
           "player_name": "Eric",
@@ -984,6 +1008,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Eric in Agendaphase durch Mutiny",
       "players": [
         {
           "player_name": "Eric",
@@ -1019,6 +1044,7 @@
       "rounds": 6,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Manu in Aktionsphase durch Spark a Rebellion",
       "players": [
         {
           "player_name": "Manu",
@@ -1054,6 +1080,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Thomas in Statusphase 2 VP, 1 PO 1 Sekret",
       "players": [
         {
           "player_name": "Thomas",
@@ -1089,6 +1116,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Thomas in Statusphase 2 VP durch PO",
       "players": [
         {
           "player_name": "Thomas",
@@ -1124,6 +1152,7 @@
       "rounds": 6,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Eric in Statusphase mit 3VP, 2 PO und 1 Sekret",
       "players": [
         {
           "player_name": "Eric",
@@ -1159,6 +1188,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Eric in Aktionsphase, Demonstrate your Power",
       "players": [
         {
           "player_name": "Eric",
@@ -1194,6 +1224,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Eric in Statusphase 2 VP, 1 PO und 1 Sekret",
       "players": [
         {
           "player_name": "Eric",
@@ -1229,6 +1260,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Manu in Statusphase, 1 VP mit PO",
       "players": [
         {
           "player_name": "Manu",
@@ -1264,6 +1296,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Thomas in Aktionsphase mit Imperial und 2 VP PO",
       "players": [
         {
           "player_name": "Thomas",
@@ -1299,6 +1332,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Eric in Statusphase 2 VP, 1 PO und 1 Sekret",
       "players": [
         {
           "player_name": "Eric",
@@ -1334,6 +1368,7 @@
       "rounds": 6,
       "max_victory_points": 10,
       "n_players": 3,
+      "win_description": "Thomas in Aktionsphase 1 VP mit Imperial MR",
       "players": [
         {
           "player_name": "Thomas",
@@ -1369,6 +1404,7 @@
       "rounds": 5,
       "max_victory_points": 10,
       "n_players": 4,
+      "win_description": "Manu in Aktionsphase 2 VP mit Imperial PO",
       "players": [
         {
           "player_name": "Manu",

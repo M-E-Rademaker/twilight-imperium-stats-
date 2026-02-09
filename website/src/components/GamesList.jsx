@@ -83,7 +83,10 @@ const GameRow = ({ game, onClick }) => {
 const GamesList = ({ games, onGameClick }) => {
   const [view, setView] = useState('cards'); // 'cards' or 'table'
 
-  if (!games || games.length === 0) {
+  // Show newest games first
+  const sortedGames = [...games].reverse();
+
+  if (!sortedGames || sortedGames.length === 0) {
     return (
       <div className="bg-gray-900 border border-purple-500 rounded-lg p-6 text-center">
         <p className="text-gray-400">No games found</p>
@@ -97,7 +100,7 @@ const GamesList = ({ games, onGameClick }) => {
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl font-bold text-purple-400">Games</h2>
-          <p className="text-sm text-gray-400">{games.length} games</p>
+          <p className="text-sm text-gray-400">{sortedGames.length} games</p>
         </div>
 
         {/* View toggle - hide on mobile */}
@@ -128,7 +131,7 @@ const GamesList = ({ games, onGameClick }) => {
       {/* Games list */}
       {view === 'cards' || window.innerWidth < 768 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {games.map(game => (
+          {sortedGames.map(game => (
             <GameCard key={game.game_id} game={game} onClick={onGameClick} />
           ))}
         </div>
@@ -159,7 +162,7 @@ const GamesList = ({ games, onGameClick }) => {
                 </tr>
               </thead>
               <tbody>
-                {games.map(game => (
+                {sortedGames.map(game => (
                   <GameRow key={game.game_id} game={game} onClick={onGameClick} />
                 ))}
               </tbody>

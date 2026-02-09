@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, Trophy, Calendar, Users, Target, Clock } from 'lucide-react';
+import { X, Trophy, Calendar, Users, Target, Clock, Award } from 'lucide-react';
 import FactionIcon from './FactionIcon';
 
 const GameDetails = ({ game, onClose }) => {
@@ -101,6 +101,19 @@ const GameDetails = ({ game, onClose }) => {
             )}
           </div>
         </div>
+
+        {/* Win Description */}
+        {game.win_description && (
+          <div className="px-6 py-4 border-b border-gray-800">
+            <div className="flex items-start gap-3">
+              <Award className="text-yellow-400 flex-shrink-0 mt-0.5" size={18} />
+              <div>
+                <p className="text-xs text-gray-500 mb-1">How it was won</p>
+                <p className="text-sm text-gray-300">{game.win_description}</p>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Players Results */}
         <div className="p-6">
