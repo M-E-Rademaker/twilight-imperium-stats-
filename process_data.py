@@ -46,7 +46,8 @@ def process_ti_data():
                 "faction_short": player_row['faction_short_name'] if pd.notna(player_row['faction_short_name']) else None,
                 "faction_full": player_row['faction_full_name'] if pd.notna(player_row['faction_full_name']) else None,
                 "victory_points": int(player_row['victory_points']) if pd.notna(player_row['victory_points']) else None,
-                "winner": bool(player_row['victory_points'] == game_row['game_max_victory_points']) if pd.notna(player_row['victory_points']) else False
+                "winner": bool(player_row['victory_points'] == game_row['game_max_victory_points']) if pd.notna(player_row['victory_points']) else False,
+                "starting_position": int(player_row['starting_position']) if pd.notna(player_row.get('starting_position')) else None
             }
             players.append(player)
 
