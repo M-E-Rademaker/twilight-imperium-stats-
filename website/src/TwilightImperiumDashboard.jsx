@@ -14,6 +14,7 @@ import WinRateChart from './components/WinRateChart';
 import ParticipationTimeline from './components/ParticipationTimeline';
 import RoundDistributionChart from './components/RoundDistributionChart';
 import FactionWinRateChart from './components/FactionWinRateChart';
+import StartingPositionChart from './components/StartingPositionChart';
 import GamesList from './components/GamesList';
 import GameDetails from './components/GameDetails';
 
@@ -116,6 +117,11 @@ const TwilightImperiumDashboard = () => {
           <p className="text-gray-400 text-lg">
             Gaming Group Performance Analysis
           </p>
+          <div className="mt-3 inline-block bg-purple-900/40 border border-purple-500/40 rounded-lg px-4 py-2">
+            <p className="text-purple-300 text-sm">
+              Data contributed by <span className="text-white font-semibold">Eric Holfert</span>
+            </p>
+          </div>
         </header>
 
         {/* Main Content */}
@@ -158,6 +164,14 @@ const TwilightImperiumDashboard = () => {
               games={filteredGames}
             />
 
+            {/* Starting Position vs Win Rate Chart */}
+            <StartingPositionChart
+              games={filteredGames}
+            />
+          </div>
+
+          {/* Charts Row 3: Faction Analytics */}
+          <div className="grid grid-cols-1 gap-6">
             {/* Faction Win Rate Chart */}
             <FactionWinRateChart
               games={filteredGames}
