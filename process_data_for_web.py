@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import json
 from pathlib import Path
+from datetime import datetime
 
 # Read raw data
 df_results = pd.read_excel("data/raw_data.xlsx", sheet_name="results")
@@ -91,7 +92,8 @@ factions_list = list(factions_dict.values())
 output_data = {
     "games": games_list,
     "players": players_list,
-    "factions": factions_list
+    "factions": factions_list,
+    "lastUpdated": datetime.now().strftime("%Y-%m-%d")
 }
 
 # Function to replace NaN with None recursively
