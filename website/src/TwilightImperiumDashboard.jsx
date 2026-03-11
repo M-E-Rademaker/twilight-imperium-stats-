@@ -197,6 +197,9 @@ const TwilightImperiumDashboard = () => {
           <p className="mt-1">
             {data.games.length} games • {data.players.length} players • {data.factions.length} factions
           </p>
+          {data.lastUpdated && (
+            <p className="mt-1">Last updated: {data.lastUpdated}</p>
+          )}
         </footer>
       </div>
 
