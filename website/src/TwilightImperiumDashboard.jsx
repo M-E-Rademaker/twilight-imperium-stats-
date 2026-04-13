@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Loader2, AlertCircle } from 'lucide-react';
+import { Loader2, AlertCircle, Clock } from 'lucide-react';
 import { useGameData } from './hooks/useGameData';
 import { applyFilters, getActiveFiltersCount } from './utils/filterGames';
 import {
@@ -125,6 +125,12 @@ const TwilightImperiumDashboard = () => {
               Data contributed by <span className="text-white font-semibold">Eric Holfert</span>
             </p>
           </div>
+          {data.lastUpdated && (
+            <div className="mt-3 inline-flex items-center gap-1.5 text-gray-400 text-sm">
+              <Clock size={14} className="text-purple-400" />
+              <span>Last updated: <span className="text-purple-300">{data.lastUpdated}</span></span>
+            </div>
+          )}
         </header>
 
         {/* Main Content */}
