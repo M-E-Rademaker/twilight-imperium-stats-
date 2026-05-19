@@ -1419,6 +1419,38 @@
           "winner": false
         }
       ]
+    },
+    {
+      "game_id": "69dbea2cc9418cc13861e19a",
+      "game_name": "Wer hat Manu in den Wohnwagen gekackt?",
+      "start_date": "2026-04-12T00:00:00",
+      "end_date": "2026-04-21T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 5,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 5,
+          "winner": false
+        }
+      ]
     }
   ],
   "players": [
@@ -1516,5 +1548,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-05-19"
 }
