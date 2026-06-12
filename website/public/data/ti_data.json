@@ -1453,6 +1453,38 @@
       ]
     },
     {
+      "game_id": "6a0caa60ac769673103cb9f2",
+      "game_name": "Knappheit, des isses",
+      "start_date": "2026-05-19T00:00:00",
+      "end_date": "2026-06-02T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Yssaril",
+          "faction_full": "The Yssaril Tribes",
+          "victory_points": 10,
+          "winner": true
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 9,
+          "winner": false
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 7,
+          "winner": false
+        }
+      ]
+    },
+    {
       "game_id": "6a2118f02c35b142e42c12b2",
       "game_name": "Straffällige Hopfenzupfer",
       "start_date": "2026-06-04T00:00:00",
