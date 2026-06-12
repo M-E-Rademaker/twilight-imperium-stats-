@@ -307,8 +307,8 @@ def main(game_id_arg=None):
         ["git", "commit", "-m", f"Add game data: {names}"],
         cwd=str(REPO), check=True, env=git_env
     )
-    print(f"\nCommit done. Run 'git push' from Windows to deploy to Netlify.")
-    print(f"Done!")
+    subprocess.run(["git", "push"], cwd=str(REPO), check=True, env=git_env)
+    print(f"\nDone! Dashboard will update on Netlify shortly.")
 
 
 if __name__ == "__main__":
