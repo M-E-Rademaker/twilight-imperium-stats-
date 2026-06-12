@@ -209,47 +209,26 @@ def prompt_manual_fields(game_row, players_data):
 
 def update_excel(new_games, new_results):
     """Append new rows to the Excel file."""
-    with pd.ExcelWriter(EXCEL, engine="openpyxl", mode="a", if_sheet_exists="overlay") as writer:
-        wb = writer.book
-
-        # Games sheet
-        df_games_existing = pd.read_excel(EXCEL, sheet_name="games")
-        df_new_games = pd.DataFrame(new_games)
-        df_games_updated = pd.concat([df_games_existing, df_new_games], ignore_index=True)
-
-        ws_games = wb["games"]
-        for row in ws_games.iter_rows():
-            for cell in row:
-                cell.value = None
-
-        # Results sheet
-        df_results_existing = pd.read_excel(EXCEL, sheet_name="results")
-        df_new_results = pd.DataFrame(new_results)
-        df_results_updated = pd.concat([df_results_existing, df_new_results], ignore_index=True)
-
-    # Use openpyxl directly for cleaner writes
     from openpyxl import load_workbook
-    wb = load_workbook(EXCEL)
-
-    def write_df_to_sheet(df, sheet_name):
-        ws = wb[sheet_name]
-        # Clear all rows
-        for row in ws.iter_rows():
-            for cell in row:
-                cell.value = None
-        # Write headers in row 1
-        for c_idx, col_name in enumerate(df.columns, start=1):
-            ws.cell(row=1, column=c_idx, value=col_name)
-        # Write data from row 2
-        for r_idx, row in enumerate(df.itertuples(index=False), start=2):
-            for c_idx, val in enumerate(row, start=1):
-                ws.cell(row=r_idx, column=c_idx, value=val)
 
     df_games_existing = pd.read_excel(EXCEL, sheet_name="games")
     df_results_existing = pd.read_excel(EXCEL, sheet_name="results")
 
     df_games_updated = pd.concat([df_games_existing, pd.DataFrame(new_games)], ignore_index=True)
     df_results_updated = pd.concat([df_results_existing, pd.DataFrame(new_results)], ignore_index=True)
+
+    wb = load_workbook(EXCEL)
+
+    def write_df_to_sheet(df, sheet_name):
+        ws = wb[sheet_name]
+        for row in ws.iter_rows():
+            for cell in row:
+                cell.value = None
+        for c_idx, col_name in enumerate(df.columns, start=1):
+            ws.cell(row=1, column=c_idx, value=col_name)
+        for r_idx, row in enumerate(df.itertuples(index=False), start=2):
+            for c_idx, val in enumerate(row, start=1):
+                ws.cell(row=r_idx, column=c_idx, value=val)
 
     write_df_to_sheet(df_games_updated, "games")
     write_df_to_sheet(df_results_updated, "results")
@@ -313,16 +292,23 @@ def main(game_id_arg=None):
         check=True
     )
 
-    print("\nCommitting and pushing...")
-    subprocess.run(["git", "add", "-A"], cwd=str(REPO), check=True)
+    print("\nCommitting...")
+    git_env = {
+        **__import__("os").environ,
+        "GIT_AUTHOR_NAME": "Manuel Rademaker",
+        "GIT_AUTHOR_EMAIL": "manuel-rademaker@outlook.de",
+        "GIT_COMMITTER_NAME": "Manuel Rademaker",
+        "GIT_COMMITTER_EMAIL": "manuel-rademaker@outlook.de",
+    }
+    subprocess.run(["git", "add", "data/raw_data.xlsx", "website/public/data/ti_data.json"],
+                   cwd=str(REPO), check=True, env=git_env)
     names = ", ".join(g["game_name"] for g in new_games)
     subprocess.run(
         ["git", "commit", "-m", f"Add game data: {names}"],
-        cwd=str(REPO), check=True
+        cwd=str(REPO), check=True, env=git_env
     )
-    subprocess.run(["git", "push"], cwd=str(REPO), check=True)
-
-    print(f"\nDone! Dashboard will update on Netlify shortly.")
+    print(f"\nCommit done. Run 'git push' from Windows to deploy to Netlify.")
+    print(f"Done!")
 
 
 if __name__ == "__main__":
