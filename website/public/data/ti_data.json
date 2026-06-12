@@ -14,42 +14,48 @@
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Frank",
           "faction_short": "Xxcha",
           "faction_full": "The Xxcha Kingdom",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 5
         },
         {
           "player_name": "Eric",
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Steve",
           "faction_short": "Creuss",
           "faction_full": "The Ghosts of Creuss",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Jol",
           "faction_full": "The Universities of Jol-Nar",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 6
         }
       ]
     },
@@ -67,35 +73,40 @@
           "faction_short": "Jol",
           "faction_full": "The Universities of Jol-Nar",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Frank",
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 5
         },
         {
           "player_name": "Eric",
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Steve",
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 4,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -113,21 +124,24 @@
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Thomas",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Frank",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 3,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -145,28 +159,32 @@
           "faction_short": "Sol",
           "faction_full": "The Federation of Sol",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 4
         },
         {
           "player_name": "Frank",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Winnu",
           "faction_full": "The Winnu",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -184,21 +202,24 @@
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Frank",
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 12,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -216,28 +237,32 @@
           "faction_short": "Xxcha",
           "faction_full": "The Xxcha Kingdom",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 13,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Frank",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 10,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Manu",
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -255,28 +280,32 @@
           "faction_short": "Sol",
           "faction_full": "The Federation of Sol",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Eric",
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Frank",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Manu",
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -294,21 +323,24 @@
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Yin",
           "faction_full": null,
           "victory_points": 12,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Eric",
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 10,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -326,21 +358,24 @@
           "faction_short": "Hacan",
           "faction_full": "The Emirates of Hacan",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Eric",
           "faction_short": "Winnu",
           "faction_full": "The Winnu",
           "victory_points": 13,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 13,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -358,28 +393,32 @@
           "faction_short": "Winnu",
           "faction_full": "The Winnu",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 11,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Thomas",
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Frank",
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -397,28 +436,32 @@
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Frank",
           "faction_short": "Hacan",
           "faction_full": "The Emirates of Hacan",
           "victory_points": 11,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 11,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Manu",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -436,21 +479,24 @@
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Eric",
           "faction_short": "Sol",
           "faction_full": "The Federation of Sol",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Creuss",
           "faction_full": "The Ghosts of Creuss",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -468,35 +514,40 @@
           "faction_short": "Sol",
           "faction_full": "The Federation of Sol",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 4
         },
         {
           "player_name": "Eric",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Frank",
           "faction_short": "Arborec",
           "faction_full": "The Arborec",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 5
         },
         {
           "player_name": "Steve",
           "faction_short": "Creuss",
           "faction_full": "The Ghosts of Creuss",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Thomas",
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -514,21 +565,24 @@
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Frank",
           "faction_short": "Jol",
           "faction_full": "The Universities of Jol-Nar",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -546,21 +600,24 @@
           "faction_short": "Jol",
           "faction_full": "The Universities of Jol-Nar",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 3,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -578,28 +635,32 @@
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 14,
-          "winner": true
+          "winner": true,
+          "starting_position": 4
         },
         {
           "player_name": "Frank",
           "faction_short": "Jol",
           "faction_full": "The Universities of Jol-Nar",
           "victory_points": 13,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Eric",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 12,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Hacan",
           "faction_full": "The Emirates of Hacan",
           "victory_points": 11,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -617,28 +678,32 @@
           "faction_short": "Creuss",
           "faction_full": "The Ghosts of Creuss",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Frank",
           "faction_short": "Winnu",
           "faction_full": "The Winnu",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Eric",
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Xxcha",
           "faction_full": "The Xxcha Kingdom",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         }
       ]
     },
@@ -656,21 +721,24 @@
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Yin",
           "faction_full": null,
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Thomas",
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -688,21 +756,24 @@
           "faction_short": "Hacan",
           "faction_full": "The Emirates of Hacan",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Thomas",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -720,28 +791,32 @@
           "faction_short": "Yin",
           "faction_full": null,
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Frank",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -759,21 +834,24 @@
           "faction_short": "Xxcha",
           "faction_full": "The Xxcha Kingdom",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Sol",
           "faction_full": "The Federation of Sol",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Thomas",
           "faction_short": "Arborec",
           "faction_full": "The Arborec",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -791,28 +869,32 @@
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Frank",
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Eric",
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -830,21 +912,24 @@
           "faction_short": "Arborec",
           "faction_full": "The Arborec",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Eric",
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -862,28 +947,32 @@
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Frank",
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Thomas",
           "faction_short": "Empyrean",
           "faction_full": "The Empyrean",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -901,21 +990,24 @@
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Jol",
           "faction_full": "The Universities of Jol-Nar",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -933,21 +1025,24 @@
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Empyrean",
           "faction_full": "The Empyrean",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Eric",
           "faction_short": "Xxcha",
           "faction_full": "The Xxcha Kingdom",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -965,21 +1060,24 @@
           "faction_short": "Yin",
           "faction_full": null,
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 4,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -997,21 +1095,24 @@
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Eric",
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Winnu",
           "faction_full": "The Winnu",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -1029,21 +1130,24 @@
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Yin",
           "faction_full": null,
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -1061,21 +1165,24 @@
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Arborec",
           "faction_full": "The Arborec",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -1093,21 +1200,24 @@
           "faction_short": "Arborec",
           "faction_full": "The Arborec",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Hacan",
           "faction_full": "The Emirates of Hacan",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -1125,21 +1235,24 @@
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Eric",
           "faction_short": "Empyrean",
           "faction_full": "The Empyrean",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Hacan",
           "faction_full": "The Emirates of Hacan",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -1157,21 +1270,24 @@
           "faction_short": "Empyrean",
           "faction_full": "The Empyrean",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Jol",
           "faction_full": "The Universities of Jol-Nar",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -1189,21 +1305,24 @@
           "faction_short": "Sol",
           "faction_full": "The Federation of Sol",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Arborec",
           "faction_full": "The Arborec",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -1221,21 +1340,24 @@
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Manu",
           "faction_short": "Arborec",
           "faction_full": "The Arborec",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Eric",
           "faction_short": "Nekro",
           "faction_full": "The Nekro Virus",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -1253,28 +1375,32 @@
           "faction_short": "Hacan",
           "faction_full": "The Emirates of Hacan",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Winnu",
           "faction_full": "The Winnu",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Frank",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Eric",
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 4,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -1292,28 +1418,32 @@
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Eric",
           "faction_short": "Empyrean",
           "faction_full": "The Empyrean",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         },
         {
           "player_name": "Thomas",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -1331,28 +1461,32 @@
           "faction_short": "Sol",
           "faction_full": "The Federation of Sol",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Frank",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Creuss",
           "faction_full": "The Ghosts of Creuss",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 4
         }
       ]
     },
@@ -1370,21 +1504,24 @@
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "L1Z1X",
           "faction_full": "The L1Z1X Mindset",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Barony",
           "faction_full": "The Barony of Letnev",
           "victory_points": 6,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     },
@@ -1402,21 +1539,24 @@
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Eric",
           "faction_short": "Mentak",
           "faction_full": "The Mentak Coalition",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         },
         {
           "player_name": "Thomas",
           "faction_short": "Xxcha",
           "faction_full": "The Xxcha Kingdom",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         }
       ]
     },
@@ -1434,21 +1574,24 @@
           "faction_short": "Muaat",
           "faction_full": "The Embers of Muaat",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         },
         {
           "player_name": "Thomas",
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -1466,21 +1609,24 @@
           "faction_short": "Yssaril",
           "faction_full": "The Yssaril Tribes",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 3
         },
         {
           "player_name": "Manu",
           "faction_short": "Naalu",
           "faction_full": "The Naalu Collective",
           "victory_points": 9,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Thomas",
           "faction_short": "Empyrean",
           "faction_full": "The Empyrean",
           "victory_points": 7,
-          "winner": false
+          "winner": false,
+          "starting_position": 2
         }
       ]
     },
@@ -1498,21 +1644,24 @@
           "faction_short": "Sardakk",
           "faction_full": "Sardakk N'orr",
           "victory_points": 10,
-          "winner": true
+          "winner": true,
+          "starting_position": 2
         },
         {
           "player_name": "Eric",
           "faction_short": "Empyrean",
           "faction_full": "The Empyrean",
           "victory_points": 8,
-          "winner": false
+          "winner": false,
+          "starting_position": 1
         },
         {
           "player_name": "Manu",
           "faction_short": "Saar",
           "faction_full": "The Clan of Saar",
           "victory_points": 5,
-          "winner": false
+          "winner": false,
+          "starting_position": 3
         }
       ]
     }
