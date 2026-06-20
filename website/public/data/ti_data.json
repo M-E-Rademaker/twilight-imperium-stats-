@@ -1257,57 +1257,6 @@
       ]
     },
     {
-      "game_id": "69256c61fa804c7cd64e3d0f",
-      "game_name": "Die lustigen 5",
-      "start_date": "2025-11-25T00:00:00",
-      "end_date": "2026-01-11T00:00:00",
-      "rounds": 7,
-      "max_victory_points": 10,
-      "n_players": 5,
-      "players": [
-        {
-          "player_name": "Manu",
-          "faction_short": "Nekro",
-          "faction_full": "The Nekro Virus",
-          "victory_points": 10,
-          "winner": true,
-          "starting_position": 2
-        },
-        {
-          "player_name": "Eric",
-          "faction_short": "The Yin Brotherhood",
-          "faction_full": null,
-          "victory_points": 6,
-          "winner": false,
-          "starting_position": 1
-        },
-        {
-          "player_name": "alexander.s",
-          "faction_short": "Empyrean",
-          "faction_full": "The Empyrean",
-          "victory_points": 4,
-          "winner": false,
-          "starting_position": 3
-        },
-        {
-          "player_name": "Lootra",
-          "faction_short": "Winnu",
-          "faction_full": "The Winnu",
-          "victory_points": 4,
-          "winner": false,
-          "starting_position": 4
-        },
-        {
-          "player_name": "Michael 🇦🇹",
-          "faction_short": "Saar",
-          "faction_full": "The Clan of Saar",
-          "victory_points": 3,
-          "winner": false,
-          "starting_position": 5
-        }
-      ]
-    },
-    {
       "game_id": "694079731cb455091b9a92cb",
       "game_name": "The return of the Timmy",
       "start_date": "2025-12-15T00:00:00",
@@ -1755,13 +1704,10 @@
   "players": [
     "Eric",
     "Frank",
-    "Lootra",
     "Manu",
-    "Michael 🇦🇹",
     "Starki",
     "Steve",
-    "Thomas",
-    "alexander.s"
+    "Thomas"
   ],
   "factions": [
     {

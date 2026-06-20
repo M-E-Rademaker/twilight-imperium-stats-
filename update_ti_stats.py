@@ -61,6 +61,11 @@ FACTION_MAP = {
 
 KNOWN_PLAYERS = set(USERNAME_MAP.keys())
 
+# Games manually excluded from the dashboard (e.g. doesn't count for the group)
+EXCLUDED_GAME_IDS = {
+    "69256c61fa804c7cd64e3d0f",  # Die lustigen 5 - marked irrelevant by Manu
+}
+
 
 def login():
     """Login and return a requests session with auth cookies."""
@@ -250,7 +255,7 @@ def main(game_id_arg=None):
     if game_id_arg:
         to_process = [game_id_arg]
     else:
-        to_process = [gid for gid in profile_game_ids if gid not in existing_ids]
+        to_process = [gid for gid in profile_game_ids if gid not in existing_ids and gid not in EXCLUDED_GAME_IDS]
 
     if not to_process:
         print("No new games found. Dashboard is up to date!")
