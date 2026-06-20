@@ -1257,6 +1257,57 @@
       ]
     },
     {
+      "game_id": "69256c61fa804c7cd64e3d0f",
+      "game_name": "Die lustigen 5",
+      "start_date": "2025-11-25T00:00:00",
+      "end_date": "2026-01-11T00:00:00",
+      "rounds": 7,
+      "max_victory_points": 10,
+      "n_players": 5,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Nekro",
+          "faction_full": "The Nekro Virus",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 2
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "The Yin Brotherhood",
+          "faction_full": null,
+          "victory_points": 6,
+          "winner": false,
+          "starting_position": 1
+        },
+        {
+          "player_name": "alexander.s",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 4,
+          "winner": false,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Lootra",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 4,
+          "winner": false,
+          "starting_position": 4
+        },
+        {
+          "player_name": "Michael 🇦🇹",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 3,
+          "winner": false,
+          "starting_position": 5
+        }
+      ]
+    },
+    {
       "game_id": "694079731cb455091b9a92cb",
       "game_name": "The return of the Timmy",
       "start_date": "2025-12-15T00:00:00",
@@ -1664,15 +1715,53 @@
           "starting_position": 3
         }
       ]
+    },
+    {
+      "game_id": "6a2cf93fb2b8d2aa7eb8c3a5",
+      "game_name": "Knappheit, des isses II",
+      "start_date": "2026-06-13T00:00:00",
+      "end_date": "2026-06-20T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 6,
+          "winner": false,
+          "starting_position": 1
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 6,
+          "winner": false,
+          "starting_position": 2
+        }
+      ]
     }
   ],
   "players": [
     "Eric",
     "Frank",
+    "Lootra",
     "Manu",
+    "Michael 🇦🇹",
     "Starki",
     "Steve",
-    "Thomas"
+    "Thomas",
+    "alexander.s"
   ],
   "factions": [
     {
@@ -1761,5 +1850,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-06-12"
+  "lastUpdated": "2026-06-20"
 }
