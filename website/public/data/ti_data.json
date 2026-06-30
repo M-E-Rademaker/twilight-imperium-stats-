@@ -1327,49 +1327,6 @@
       ]
     },
     {
-      "game_id": "69554f3a40e20c90c204b346",
-      "game_name": "Respect ;-)",
-      "start_date": "2025-12-31T00:00:00",
-      "end_date": "2026-06-22T00:00:00",
-      "rounds": 7,
-      "max_victory_points": 10,
-      "n_players": 4,
-      "players": [
-        {
-          "player_name": "Ketherus",
-          "faction_short": "Naalu",
-          "faction_full": "The Naalu Collective",
-          "victory_points": 10,
-          "winner": true,
-          "starting_position": 4
-        },
-        {
-          "player_name": "Manu",
-          "faction_short": "Empyrean",
-          "faction_full": "The Empyrean",
-          "victory_points": 9,
-          "winner": false,
-          "starting_position": 1
-        },
-        {
-          "player_name": "Eric",
-          "faction_short": "Arborec",
-          "faction_full": "The Arborec",
-          "victory_points": 8,
-          "winner": false,
-          "starting_position": 2
-        },
-        {
-          "player_name": "Fraz",
-          "faction_short": "Jol",
-          "faction_full": "The Universities of Jol-Nar",
-          "victory_points": 8,
-          "winner": false,
-          "starting_position": 3
-        }
-      ]
-    },
-    {
       "game_id": "6962727b1e677f7a6f600b1e",
       "game_name": "Jetzt mal ohne Fehler bitte",
       "start_date": "2026-01-10T00:00:00",
@@ -1782,8 +1739,6 @@
   "players": [
     "Eric",
     "Frank",
-    "Fraz",
-    "Ketherus",
     "Manu",
     "Starki",
     "Steve",

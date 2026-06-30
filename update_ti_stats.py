@@ -57,6 +57,7 @@ FACTION_MAP = {
     "The Titans of Ul": "Titans",
     "The Empyrean": "Empyrean",
     "The Keleres": "Keleres",
+    "The Yin Brotherhood": "Yin",
 }
 
 KNOWN_PLAYERS = set(USERNAME_MAP.keys())
@@ -64,7 +65,11 @@ KNOWN_PLAYERS = set(USERNAME_MAP.keys())
 # Games manually excluded from the dashboard (e.g. doesn't count for the group)
 EXCLUDED_GAME_IDS = {
     "69256c61fa804c7cd64e3d0f",  # Die lustigen 5 - marked irrelevant by Manu
+    "69554f3a40e20c90c204b346",  # Respect ;-) - Ketherus game, excluded by Manu
 }
+
+# Core players that must ALL be present for a game to count
+CORE_PLAYERS = {"ManolosMagnos", "Thomas", "Keineui"}  # Manu, Thomas, Eric
 
 
 def login():
@@ -155,10 +160,9 @@ def get_game_data(session, game_id):
     players_data = session.get(f"{BASE}/games/{game_id}/players").json()
     log = session.get(f"{BASE}/games/{game_id}/log").json()
 
-    # Only process games with at least one known friend-group player (besides Manu)
+    # Only process games where all core players (Manu, Thomas, Eric) are present
     usernames = {p["user"]["username"] for p in players_data}
-    group_players = usernames & KNOWN_PLAYERS
-    if len(group_players) < 2:
+    if not CORE_PLAYERS.issubset(usernames):
         return None  # Not a group game
 
     # Parse dates
@@ -207,7 +211,10 @@ def prompt_manual_fields(game_row, players_data):
     print(f"    Players: {', '.join(p['user']['username'] + ' (' + str(p.get('victoryPoints', '?')) + ' VP)' for p in players_data)}")
     print(f"    Auto-detected: win_category={game_row['win_category']}, winner_had_support={game_row['winner_had_support']}")
 
-    desc = input("  Win description (optional, press Enter to skip): ").strip()
+    try:
+        desc = input("  Win description (optional, press Enter to skip): ").strip()
+    except EOFError:
+        desc = ""
     game_row["win_description"] = desc if desc else None
     return game_row
 
