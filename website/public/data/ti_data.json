@@ -1769,6 +1769,41 @@
           "starting_position": 1
         }
       ]
+    },
+    {
+      "game_id": "6a4b71cec0b6fdb6a6dcfd06",
+      "game_name": "Diesmal schenke ich Manu aber den Sieg",
+      "start_date": "2026-07-06T00:00:00",
+      "end_date": "2026-07-14T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Winnu",
+          "faction_full": "The Winnu",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 1
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 8,
+          "winner": false,
+          "starting_position": 2
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 6,
+          "winner": false,
+          "starting_position": 3
+        }
+      ]
     }
   ],
   "players": [
@@ -1866,5 +1901,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-07-06"
+  "lastUpdated": "2026-07-15"
 }
