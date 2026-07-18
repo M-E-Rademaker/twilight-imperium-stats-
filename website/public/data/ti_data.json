@@ -1804,6 +1804,41 @@
           "starting_position": 3
         }
       ]
+    },
+    {
+      "game_id": "6a574898ad0760d27639ab7b",
+      "game_name": "SkipToVictory",
+      "start_date": "2026-07-15T00:00:00",
+      "end_date": "2026-07-16T00:00:00",
+      "rounds": 4,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 2
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 5,
+          "winner": false,
+          "starting_position": 1
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 3,
+          "winner": false,
+          "starting_position": 3
+        }
+      ]
     }
   ],
   "players": [
@@ -1901,5 +1936,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-07-15"
+  "lastUpdated": "2026-07-18"
 }
