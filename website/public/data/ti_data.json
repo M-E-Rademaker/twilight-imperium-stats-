@@ -1909,6 +1909,41 @@
           "starting_position": 3
         }
       ]
+    },
+    {
+      "game_id": "6aa276baf2fff42429b2341d",
+      "game_name": "Dude, where is my skip?",
+      "start_date": "2026-09-10T00:00:00",
+      "end_date": "2026-09-22T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Manu",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 1
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 8,
+          "winner": false,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "The L1Z1X Mindnet",
+          "faction_full": null,
+          "victory_points": 5,
+          "winner": false,
+          "starting_position": 2
+        }
+      ]
     }
   ],
   "players": [
@@ -2006,5 +2041,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-09-10"
+  "lastUpdated": "2026-09-26"
 }
