@@ -39,6 +39,7 @@ FACTION_MAP = {
     "The Federation of Sol": "Sol",
     "The Ghosts of Creuss": "Creuss",
     "The L1Z1X Mindset": "L1Z1X",
+    "The L1Z1X Mindnet": "L1Z1X",
     "The Mentak Coalition": "Mentak",
     "The Naalu Collective": "Naalu",
     "The Nekro Virus": "Nekro",
