@@ -1937,8 +1937,8 @@
         },
         {
           "player_name": "Eric",
-          "faction_short": "The L1Z1X Mindnet",
-          "faction_full": null,
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
           "victory_points": 5,
           "winner": false,
           "starting_position": 2
