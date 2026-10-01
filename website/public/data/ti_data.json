@@ -1944,6 +1944,41 @@
           "starting_position": 2
         }
       ]
+    },
+    {
+      "game_id": "6ab28f6cc72eb32447571861",
+      "game_name": "Skippedyskip",
+      "start_date": "2026-09-22T00:00:00",
+      "end_date": "2026-09-30T00:00:00",
+      "rounds": 6,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Thomas",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Xxcha",
+          "faction_full": "The Xxcha Kingdom",
+          "victory_points": 9,
+          "winner": false,
+          "starting_position": 1
+        },
+        {
+          "player_name": "Eric",
+          "faction_short": "Sardakk",
+          "faction_full": "Sardakk N'orr",
+          "victory_points": 7,
+          "winner": false,
+          "starting_position": 2
+        }
+      ]
     }
   ],
   "players": [
@@ -2041,5 +2076,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-09-26"
+  "lastUpdated": "2026-10-01"
 }
