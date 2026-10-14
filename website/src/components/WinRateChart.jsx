@@ -56,7 +56,7 @@ const WinRateChart = ({ timelineData, players }) => {
         if (timeline && timeline.data.length > 0) {
           // Find the data point for this game number or the most recent before it
           const playerData = timeline.data.find(d => d.gameNumber === gameNumber);
-          if (playerData) {
+          if (playerData && playerData.gameNumber > 5) {
             dataPoint[player] = playerData.winRate;
             dataPoint.gameName = playerData.gameName;
           }
