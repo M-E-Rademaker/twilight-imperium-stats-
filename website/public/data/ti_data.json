@@ -1979,6 +1979,41 @@
           "starting_position": 2
         }
       ]
+    },
+    {
+      "game_id": "6abdf0079d4953efea4aac6f",
+      "game_name": "Dumm, des isses!",
+      "start_date": "2026-10-01T00:00:00",
+      "end_date": "2026-10-11T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Saar",
+          "faction_full": "The Clan of Saar",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 1
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 7,
+          "winner": false,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Hacan",
+          "faction_full": "The Emirates of Hacan",
+          "victory_points": 2,
+          "winner": false,
+          "starting_position": 2
+        }
+      ]
     }
   ],
   "players": [
@@ -2076,5 +2111,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-10-01"
+  "lastUpdated": "2026-10-14"
 }
