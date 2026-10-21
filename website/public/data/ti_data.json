@@ -2014,6 +2014,76 @@
           "starting_position": 2
         }
       ]
+    },
+    {
+      "game_id": "6acc70e15e1571e7112e8033",
+      "game_name": "Konstruktiver Meinungsaustausch",
+      "start_date": "2026-10-12T00:00:00",
+      "end_date": "2026-10-15T00:00:00",
+      "rounds": 4,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Empyrean",
+          "faction_full": "The Empyrean",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Jol",
+          "faction_full": "The Universities of Jol-Nar",
+          "victory_points": 7,
+          "winner": false,
+          "starting_position": 2
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 5,
+          "winner": false,
+          "starting_position": 1
+        }
+      ]
+    },
+    {
+      "game_id": "6ad0954728b471e0c5f60270",
+      "game_name": "Kreativ sein, des isses",
+      "start_date": "2026-10-15T00:00:00",
+      "end_date": "2026-10-21T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 3,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Yin",
+          "faction_full": null,
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Naalu",
+          "faction_full": "The Naalu Collective",
+          "victory_points": 7,
+          "winner": false,
+          "starting_position": 2
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Sol",
+          "faction_full": "The Federation of Sol",
+          "victory_points": 6,
+          "winner": false,
+          "starting_position": 1
+        }
+      ]
     }
   ],
   "players": [
@@ -2111,5 +2181,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-10-14"
+  "lastUpdated": "2026-10-21"
 }
