@@ -2084,6 +2084,49 @@
           "starting_position": 1
         }
       ]
+    },
+    {
+      "game_id": "6ad8c51d1ff03b61b82c8895",
+      "game_name": "Erratisches Spiel für erratische Spieler",
+      "start_date": "2026-10-21T00:00:00",
+      "end_date": "2026-11-10T00:00:00",
+      "rounds": 5,
+      "max_victory_points": 10,
+      "n_players": 4,
+      "players": [
+        {
+          "player_name": "Eric",
+          "faction_short": "Mentak",
+          "faction_full": "The Mentak Coalition",
+          "victory_points": 10,
+          "winner": true,
+          "starting_position": 1
+        },
+        {
+          "player_name": "Thomas",
+          "faction_short": "Muaat",
+          "faction_full": "The Embers of Muaat",
+          "victory_points": 8,
+          "winner": false,
+          "starting_position": 4
+        },
+        {
+          "player_name": "Frank",
+          "faction_short": "L1Z1X",
+          "faction_full": "The L1Z1X Mindset",
+          "victory_points": 7,
+          "winner": false,
+          "starting_position": 3
+        },
+        {
+          "player_name": "Manu",
+          "faction_short": "Barony",
+          "faction_full": "The Barony of Letnev",
+          "victory_points": 7,
+          "winner": false,
+          "starting_position": 2
+        }
+      ]
     }
   ],
   "players": [
@@ -2181,5 +2224,5 @@
       "icon": "/icons/faction_icons/Yssaril.png"
     }
   ],
-  "lastUpdated": "2026-10-21"
+  "lastUpdated": "2026-11-10"
 }
