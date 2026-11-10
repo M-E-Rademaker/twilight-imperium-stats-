@@ -34,7 +34,7 @@ export default function App() {
         <KpiRow scope={scope} onOpenGame={openGame} />
         <Leaderboard rows={scope.rows} onOpenGame={openGame} />
 
-        <div className="grid gap-5 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-5 lg:grid-cols-3">
           <WinRateChart rows={scope.rows} />
           <Records scope={scope} onOpenGame={openGame} />
 

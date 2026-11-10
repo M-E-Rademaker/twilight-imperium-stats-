@@ -35,7 +35,7 @@ export function HeadToHead({ games }: { games: Game[] }) {
       ) : (
         <>
           <div className="overflow-x-auto">
-            <table className="w-full border-separate border-spacing-1 text-sm">
+            <table className="w-full border-separate border-spacing-0.5 text-sm sm:border-spacing-1">
               <thead>
                 <tr>
                   <th className="sr-only">Spieler</th>
@@ -74,10 +74,10 @@ export function HeadToHead({ games }: { games: Game[] }) {
                           onFocus={() => setHover({ a, b, d })}
                           onClick={() => setHover({ a, b, d })}
                           onMouseLeave={() => setHover(null)}
-                          className="h-11 min-w-12 rounded-md text-center tabular outline-offset-0"
+                          className="h-11 min-w-10 rounded-md text-center tabular outline-offset-0 sm:min-w-12"
                           style={{ backgroundColor: tint(share) }}
                         >
-                          <span className="block font-semibold text-ink">{fmtPct0(share)}</span>
+                          <span className="block text-xs font-semibold text-ink sm:text-sm">{fmtPct0(share)}</span>
                           <span className="block text-[10px] text-ink-2">n={d.shared}</span>
                         </td>
                       )

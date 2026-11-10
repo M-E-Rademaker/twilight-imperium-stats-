@@ -150,9 +150,9 @@ function Stat({ label, value, sub }: { label: string; value: ReactNode; sub?: st
 
 function Form({ s, onOpenGame }: { s: PlayerStat; onOpenGame: (id: string) => void }) {
   return (
-    <span className="inline-flex items-center gap-1" aria-label="Letzte fünf Spiele">
+    <span className="inline-flex items-center md:gap-1" aria-label="Letzte fünf Spiele">
       {s.form.map((f) => (
-        <button key={f.gameId} onClick={() => onOpenGame(f.gameId)} className="rounded-full p-0.5 hover:bg-white/10">
+        <button key={f.gameId} onClick={() => onOpenGame(f.gameId)} className="rounded-full p-2 hover:bg-white/10 md:p-0.5">
           <ResultDot won={f.won} title={f.won ? 'Sieg' : 'Niederlage'} />
         </button>
       ))}
