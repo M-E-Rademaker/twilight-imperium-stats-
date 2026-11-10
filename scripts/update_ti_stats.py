@@ -56,6 +56,7 @@ FACTION_ALIASES = {
 EXCLUDED_GAME_IDS = {
     "69256c61fa804c7cd64e3d0f",  # Die lustigen 5 - marked irrelevant
     "69554f3a40e20c90c204b346",  # Respect ;-) - Ketherus game
+    "6925531afa804c7cd63c3e87",  # not a group game; excluded 2026-11-10 with all games not imported by then
 }
 
 # All of these players must be present for a game to count as a group game
