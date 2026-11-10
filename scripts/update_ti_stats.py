@@ -223,7 +223,7 @@ def existing_game_ids() -> set[str]:
 
 def append_rows(path: Path, columns: list[str], rows: list[dict]) -> None:
     with path.open("a", encoding="utf-8", newline="") as f:
-        csv.DictWriter(f, fieldnames=columns).writerows(rows)
+        csv.DictWriter(f, fieldnames=columns, lineterminator="\n").writerows(rows)
 
 
 def git(*args: str) -> None:
