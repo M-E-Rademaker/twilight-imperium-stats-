@@ -1,3 +1,90 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import '@fontsource-variable/orbitron';
+@import '@fontsource-variable/space-grotesk';
+
+@theme {
+  --font-display: 'Orbitron Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Space Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+
+  /* surfaces */
+  --color-space: #0b0914;
+  --color-panel: #14111f;
+  --color-panel-2: #1c1830;
+  --color-line: rgb(168 85 247 / 0.22);
+
+  /* text */
+  --color-ink: #f1effa;
+  --color-ink-2: #c4c0d8;
+  --color-ink-3: #8f8aa8;
+
+  /* semantic */
+  --color-gold: #f5c542;
+  --color-better: #34d399;
+  --color-worse: #fb7185;
+
+  /* chart series that are not players (validated, dark surface) */
+  --color-cat-1: #8b5cf6;
+  --color-cat-2: #b8800f;
+  --color-cat-3: #2a9fb8;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-space text-ink font-sans antialiased;
+  }
+
+  /* Starfield on its own fixed layer: composited once instead of repainted
+     on every scroll (background-attachment: fixed is slow, esp. on iOS). */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image:
+      radial-gradient(1200px 600px at 10% -10%, rgb(124 58 237 / 0.25), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgb(219 39 119 / 0.14), transparent 60%),
+      radial-gradient(1px 1px at 20% 30%, rgb(255 255 255 / 0.5), transparent),
+      radial-gradient(1px 1px at 70% 80%, rgb(255 255 255 / 0.35), transparent),
+      radial-gradient(1px 1px at 40% 70%, rgb(255 255 255 / 0.3), transparent),
+      radial-gradient(1px 1px at 85% 25%, rgb(255 255 255 / 0.4), transparent);
+    background-size: auto, auto, 300px 300px, 400px 400px, 250px 250px, 350px 350px;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-purple-400;
+  }
+
+  dialog::backdrop {
+    background: rgb(5 3 12 / 0.7);
+    backdrop-filter: blur(2px);
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(168 85 247 / 0.4) transparent;
+}
+
+/* Recharts: keep focus rings off SVG wrappers when clicking */
+.recharts-wrapper:focus,
+.recharts-surface:focus {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

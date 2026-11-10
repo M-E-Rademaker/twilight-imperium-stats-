@@ -4,7 +4,6 @@ website/node_modules/
 
 # Build outputs
 website/dist/
-website/build/
 
 # Python cache
 __pycache__/
@@ -40,3 +39,6 @@ yarn-error.log*
 *.tmp
 *.temp
 nul
+
+# Playwright / Python venvs
+.venv/
