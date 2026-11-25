@@ -26,6 +26,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import requests
 
@@ -113,6 +114,8 @@ def login(email: str, password: str) -> tuple[requests.Session, list[str]]:
         cookies = {c["name"]: c["value"] for c in page.context.cookies()}
 
         page.goto(f"{BASE}/u/me", wait_until="networkidle")
+        # Unauthenticated visitors are redirected to /login?redirectTo=...
+        logged_in = urlsplit(page.url).path.rstrip("/") != "/login"
         game_ids: list[str] = []
         for link in page.query_selector_all("a"):
             href = link.get_attribute("href") or ""
@@ -122,8 +125,11 @@ def login(email: str, password: str) -> tuple[requests.Session, list[str]]:
                     game_ids.append(gid)
         browser.close()
 
-    if not cookies:
-        sys.exit("Login failed: no cookies received.")
+    # Fail loudly: otherwise a broken login looks like "no new games" in CI.
+    if not logged_in or not cookies:
+        sys.exit("Login failed: check TW_EMAIL / TW_PASSWORD.")
+    if not game_ids:
+        sys.exit("No games found on the profile page. Did twilightwars.com change its layout?")
     session = requests.Session()
     session.cookies.update(cookies)
     return session, game_ids
